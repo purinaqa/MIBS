@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/', 'HomeController@index')->name('home');

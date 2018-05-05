@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
-    <title>Ample Admin Template - The Ultimate Multipurpose admin template</title>
+    <title>Register Akun</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{asset('/bootstrap2/dist/css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- animation CSS -->
@@ -27,14 +27,13 @@
 
 <body>
     <!-- Preloader -->
-    
-    <section id="wrapper" class="new-login-register">
-        <div class="lg-info-panel">
-            
-        </div>
+        <!-- <div class="new-login-box col-md-4"> -->
+            <section id="wrapper" class="new-login-register">
+                <div class="lg-info-panel ">
+                </div>
         <div class="new-login-box">
             <div class="white-box">
-                <h3 class="box-title m-b-0">Sign UP to Admin</h3> <small>Enter your details below</small>
+                <h3 class="box-title m-b-0">Sign Up</h3> <small>Enter your details below</small>
                 <form class="form-horizontal new-lg-form" id="loginform" action="index.html">
                     <div class="form-group ">
                         <div class="col-xs-12">
@@ -81,7 +80,9 @@
                 </form>
             </div>
         </div>
-    </section>
+            </section>
+        <!-- </div> -->
+    
     <!-- jQuery -->
     <script src="{{asset('/plugins/bower_components/jquery/dist/jquery.min.js')}}"></script>
     <!-- Bootstrap Core JavaScript -->

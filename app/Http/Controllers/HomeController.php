@@ -10,4 +10,8 @@ class HomeController extends Controller
     {
     	return view('pages.index');
     }
+    public function regist()
+    {
+    	return view('pages.register');
+    }
 }

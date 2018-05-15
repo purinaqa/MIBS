@@ -15,7 +15,8 @@ class PenggunaTable extends Migration
     public function up()
     {
          Schema::create($this->tablename, function (Blueprint $table) {
-            $table->uuid('id');
+            $table->engine = "InnoDB";
+            $table->increments('id');
             $table->string('username_pengguna')->unique();
             $table->string('nama_pengguna');
             $table->string('alamat_pengguna');

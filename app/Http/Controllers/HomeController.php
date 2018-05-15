@@ -18,4 +18,8 @@ class HomeController extends Controller
     {
     	return view('pages.login');
     }
+    public function detailbuku()
+    {
+        return view('pages.detail');
+    }
 }

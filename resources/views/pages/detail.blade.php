@@ -203,63 +203,106 @@
                     </div>
                 </div>
                 
-                <!-- daftar buku start-->
-                <div class="arrival-area clearfix pt-30">
+                <!--Start Product Details area  -->
+                <div class="product-detail-area pt-50">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xs-12">
-                                <div class="section-tab">
-                                    <div class="section-tab-menu text-center mb-45">
-                                        <ul role="tablist">
-                                            <li role="presentation" class="active text-uppercase"><a aria-controls="" role="tab" data-toggle="tab">Colections</a></li>
-                                        </ul>
+                            <div class="section-tab-menu text-center mb-45">
+                                <ul role="tablist">
+                                    <li role="presentation" class="active text-uppercase"><a aria-controls="" role="tab" data-toggle="tab">Details</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                <div class="zoomWrapper clearfix">
+                                    <div id="img-1" class="zoomWrapper single-zoom pull-right">
+                                        <a href="#">
+                                            <img id="zoom1" src="img/shop/big1.jpg" data-zoom-image="img/shop/big1.jpg" alt="big-1">
+                                        </a>
                                     </div>
-                                    <div class="clearfix"></div>
-                                    <div class="tab-content row">
-                                        <!-- <div id="new" role="tabpanel" class="active section-tab-item"> -->
-                                            <!-- <div class="tab-item-slider"> -->
-                                                <div class="col-xs-3 col-width">  
-                                                    <div class="single-product">
-                                                        <div class="single-product-item clearfix">
-                                                            <div class="single-product-img clearfix">
-                                                                <a href="#">
-                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
-                                                                </a>
-                                                                <div class="wish-icon-hover text-center clearfix">
-                                                                    <div class="hover-text">
-                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
-                                                                        <ul>
-                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"></i></a></li>
-                                                                        </ul>
-                                                                    </div>    
-                                                                </div>
-                                                            </div>
-                                                            <div class="single-product-info clearfix">
-                                                                <div class="pro-rating">  
-                                                                    <i class="fa fa-star"></i>
-                                                                    <i class="fa fa-star"></i>
-                                                                    <i class="fa fa-star"></i>
-                                                                    <i class="fa fa-star"></i>
-                                                                    <i class="fa fa-star"></i>  
-                                                                </div> 
-                                                                <div class="pro-price">
-                                                                    <span class="new-price">$150</span>
-                                                                    <span class="old-price">$180</span>
-                                                                </div> 
-                                                                <h3><a href="#">Electria Ostma</a></h3>  
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <div class="product-detail">
+                                    <div class="product-title">
+                                        <h2>((Judul Buku))</h2><br>
+                                        <h4>Rp. HargaBuku(ad)<del>HargaBuku(bd)</del></h4>
+                                    </div>   
+                                    <h5>Available: <span> In Stock</span> </h5>
+
+                                    <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidt utore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris    nisi ut aliquip ex ea commodo consequa uis aute irure dolor in reprehenderit. </p>
+                                    <div class="size-quantity clearfix">
+                                        <div class="quick-add-to-cart">
+                                        <form method="post" class="cart">
+                                            <div class="numbers-row">
+                                                <input type="number" id="french-hens" value="3">
                                             </div>
-                                        </div>    
+                                            <a href="/cart" class="single-add-to-cart-button" type="submit">Add to cart</a>
+                                        </form>
+                                    </div>    
+                                    </div>    
+                                    <div class="wish-icon-hover-list mt-30 mb-30 text-left">
+                                        <ul>
+                                            <li><a href="#" data-toggle="tooltip" title="shopping cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                            <li><a href="#" data-toggle="tooltip" title="Like it!"><i class="fa fa-heart"></i></a></li>
+                                            <li><a href="#" data-toggle="tooltip" title="refresh"><i class="fa fa-refresh"></i></a></li>
+                                        </ul>
                                     </div>     
-                                </div>   
+                                    <div class="widget-color">
+                                       <h4 class="follow">Share:</h4>
+                                       <ul>
+                                           <li class="facebook"><a href=""><i class="fa fa-facebook"></i></a></li>
+                                           <li class="twitter"><a href=""><i class="fa fa-twitter"></i></a></li>
+                                           <li class="google-plus"><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                           <li class="linkedin"><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>   
+                                   </div>
+                                </div>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="product-description-tab pt-50">
+                                    <div class="description-tab-menu section-tab-menu pb-30">
+                                        <ul class="clearfix" role="tablist">
+                                            <li role="presentation" class="active"><a href="#description" aria-controls="description" role="tab" data-toggle="tab">Description</a></li>
+                                            <li role="presentation"><a href="#specification" aria-controls="specification" role="tab" data-toggle="tab">information</a></li>
+                                            <li role="presentation"><a href="#review" aria-controls="review" role="tab" data-toggle="tab">Reviews</a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="description">
+                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla patur. Excepteur sint occaecat cupidatat non proident reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+
+                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="specification">
+                                            <div class="col-xs-12">
+                                                <div class="col-xs-3"><p><b>Author</b></p></div>
+                                                <div class="col-xs-9 text-left"><p>Udin Syamsudin</p></div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="col-xs-3"><p><b>Publisher</b></p></div>
+                                                <div class="col-xs-9 text-left"><p>Pro Media</p></div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="col-xs-3"><p><b>Year</b></p></div>
+                                                <div class="col-xs-9 text-left"><p>2017</p></div>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="review">
+                                            <p>Similique animi consequatur pariatur voluptas tempore, dolores obcaecati dolorum quia odit harum. Quos nemo, minima totam quidem ipsum labore.</p>
+                                            <ul>
+                                                <li> <i class="fa fa-circle"></i> Minus placeat eligendi neque doloribus sed ratione repellendus a illo similique, sint quisquam perferendis eum nam nihil dolor fugit blanditiis, explicabo, recusandae hic qui exercitationem aspernatur excepturi voluptate unde. </li>
+                                                <li> <i class="fa fa-circle"></i> Quaerat magnam, perferendis, sapiente doloremque error omnis esse in saepe quos eveniet quasi ex fugit eligendi consectetur nobis amet. </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
                     </div>
                 </div>
-                <!-- daftar buku start-->
+                <!--End Product Details area  --> 
                 
                 <!-- client area end -->
                 <!-- service area end -->
@@ -432,7 +475,55 @@
         <!-- QUICKVIEW PRODUCT -->
         <div id="quickview-wrapper">
             <!-- Modal -->
-            
+            <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-product">
+                                <div class="product-images">
+                                    <div class="main-image images">
+                                        <img alt="" src="img/product/static2.jpg">
+                                    </div>
+                                </div><!-- .product-images -->
+
+                                <div class="product-info">
+                                    <h1>Diam quis cursus</h1>
+                                    <div class="price-box">
+                                        <p class="price"><span class="special-price"><span class="amount">$132.00</span></span></p>
+                                    </div>
+                                    <a href="shop.html" class="see-all">See all features</a>
+                                    <div class="quick-add-to-cart">
+                                        <form method="post" class="cart">
+                                            <div class="numbers-row">
+                                                <input type="number" id="french-hens" value="3">
+                                            </div>
+                                            <button class="single-add-to-cart-button" type="submit">Add to cart</button>
+                                        </form>
+                                    </div>
+                                    <div class="quick-desc">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum.
+                                    </div>
+                                    <div class="social-sharing">
+                                        <div class="widget widget_socialsharing_widget">
+                                            <h3 class="widget-title-modal">Share this product</h3>
+                                            <ul class="social-icons">
+                                                <li><a target="_blank" title="Facebook" href="#" class="facebook social-icon"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a target="_blank" title="Twitter" href="#" class="twitter social-icon"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a target="_blank" title="Google +" href="#" class="gplus social-icon"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a target="_blank" title="LinkedIn" href="#" class="linkedin social-icon"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div><!-- .product-info -->
+                            </div><!-- .modal-product -->
+                        </div><!-- .modal-body -->
+                    </div><!-- .modal-content -->
+                </div><!-- .modal-dialog -->
+            </div>
             <!-- END Modal -->
         </div>
         <!-- END QUICKVIEW PRODUCT -->

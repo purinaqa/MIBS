@@ -13,3 +13,4 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/register', 'HomeController@regist');
+Route::get('/login', 'HomeController@login');

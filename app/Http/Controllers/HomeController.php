@@ -14,4 +14,8 @@ class HomeController extends Controller
     {
     	return view('pages.register');
     }
+    public function login()
+    {
+    	return view('pages.login');
+    }
 }

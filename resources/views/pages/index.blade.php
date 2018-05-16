@@ -92,12 +92,11 @@
                                <div class="col-md-6">
                                     <div class="account-usd text-left">
                                         <ul>
-                                            <li class=" hidden-xs"><a href="account.html">Register</a></li>
+                                            <li class=" hidden-xs"><a href="/register">Register</a></li>
                                             <li><a href="account.html">My Account <i class="fa fa-angle-down"></i></a>
                                                 <ul class="submenu-mainmenu">
-                                                    <li><a href="#"><i class="fa fa-circle"></i>Login</a></li>
+                                                    <li><a href="/login"><i class="fa fa-circle"></i>Login</a></li>
                                                     <li><a href="account.html"><i class="fa fa-circle"></i>My Account</a></li>
-                                                    <li><a href="wishlist.html"><i class="fa fa-circle"></i>My Wishlist</a></li>
                                                     <li><a href="cart.html"><i class="fa fa-circle"></i>My Cart</a></li>
                                                     <li><a href="checkout.html"><i class="fa fa-circle"></i>Checkout</a></li>
                                                 </ul>
@@ -203,21 +202,18 @@
                         
                     </div>
                 </div>
-                <!-- slider end -->
                 
-                <!-- arrival start-->
-                <div class="arrival-area clearfix pt-90">
+                <!-- daftar buku start-->
+                <div class="arrival-area clearfix pt-30">
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="section-tab">
-                                    <!-- <div class="section-tab-menu text-center mb-45">
+                                    <div class="section-tab-menu text-center mb-45">
                                         <ul role="tablist">
-                                            <li role="presentation" class="active text-uppercase"><a href="#new" aria-controls="new" role="tab" data-toggle="tab">New Arrival</a></li>
-                                            <li role="presentation" class="text-uppercase"><a href="#featured" aria-controls="featured" role="tab" data-toggle="tab">Featured</a></li>
-                                            <li role="presentation" class="text-uppercase"><a href="#best" aria-controls="best" role="tab" data-toggle="tab">Best Selling</a></li>
+                                            <li role="presentation" class="active text-uppercase"><a aria-controls="" role="tab" data-toggle="tab">Colections</a></li>
                                         </ul>
-                                    </div> -->
+                                    </div>
                                     <div class="clearfix"></div>
                                     <div class="tab-content row">
                                         <!-- <div id="new" role="tabpanel" class="active section-tab-item"> -->
@@ -233,10 +229,7 @@
                                                                     <div class="hover-text">
                                                                         <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
                                                                         <ul>
-                                                                            <li><a href="#" data-toggle="tooltip" title="Shopping Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                                                                            <li><a class="modal-view" href="#" data-toggle="modal" data-target="#productModal"><i class="fa fa-eye"></i></a></li>
-                                                                            <li><a href="#" data-toggle="tooltip" title="Compage"><i class="fa fa-refresh"></i></a></li>
-                                                                            <li><a href="#" data-toggle="tooltip" title="Like it!"><i class="fa fa-heart"></i></a></li>
+                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"></i></a></li>
                                                                         </ul>
                                                                     </div>    
                                                                 </div>
@@ -261,23 +254,24 @@
                                             </div>
                                         </div>    
                                     </div>     
-                                </div>
-                                <div class="arrival-button text-center mt-30">
-                                    <a href='#' class='section-button'>View More</a>
-                                </div>    
+                                </div>   
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- arrival end -->
-                <!-- featured start -->
+                <!-- daftar buku start-->
                 
                 <!-- client area end -->
                 <!-- service area end -->
-                <div class="service-area mb-10">
+                <div class="service-area mb-10 clearfix pt-30">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div class="section-tab-menu text-center mb-45">
+                                <ul role="tablist">
+                                    <li role="presentation" class="active text-uppercase"><a aria-controls="" role="tab" data-toggle="tab">Our Values</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 ">
                                 <div class="single-service text-center">
                                     <div class="single-service-content ptb-40">
                                         <div class="single-service-icon-wrapper">
@@ -286,13 +280,13 @@
                                             </div>
                                         </div>    
                                         <div class="single-service-info">
-                                            <h4 class="text-uppercase">free shipping</h4>
-                                            <p>Free for all product</p>
+                                            <h4 class="text-uppercase">Shipping</h4>
+                                            <p>Ongkir hanya Rp12.000 ke seluruh Jawa Timur</p>
                                         </div> 
                                     </div>
                                 </div>
                             </div> 
-                            <div class="col-md-3 col-sm-4 col-xs-12">   
+                            <div class="col-md-3 ">   
                                 <div class="single-service text-center">
                                     <div class="single-service-content ptb-40">
                                         <div class="single-service-icon-wrapper">
@@ -301,13 +295,13 @@
                                             </div>
                                         </div>    
                                         <div class="single-service-info">
-                                            <h4 class="text-uppercase">order online</h4>
-                                            <p>www.shofixe.com</p>
+                                            <h4 class="text-uppercase">Cash On Delivery</h4>
+                                            <p>Bisa COD di sekitar ITS</p>
                                         </div>
                                     </div>    
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-4 col-xs-12">    
+                            <div class="col-md-3">    
                                 <div class="single-service text-center">
                                     <div class="single-service-content ptb-40">
                                         <div class="single-service-icon-wrapper">
@@ -316,13 +310,13 @@
                                             </div>
                                         </div>    
                                         <div class="single-service-info">
-                                            <h4 class="text-uppercase">money back</h4>
-                                            <p>money back guarantee</p>
+                                            <h4 class="text-uppercase">Sedekah</h4>
+                                            <p>Membeli buku sama dengan bersedekah</p>
                                         </div>
                                     </div>    
                                 </div>
                             </div>
-                            <div class="col-md-3 hidden-sm col-xs-12">    
+                            <div class="col-md-3 ">    
                                 <div class="single-service text-center">
                                     <div class="single-service-content ptb-40">
                                         <div class="single-service-icon-wrapper">
@@ -331,8 +325,8 @@
                                             </div>
                                         </div>    
                                         <div class="single-service-info">
-                                            <h4 class="text-uppercase">gift coupon</h4>
-                                            <p>surprise gift coupon</p>
+                                            <h4 class="text-uppercase">Hadiah</h4>
+                                            <p>Dapatkan hadiah pada event-event tertentu</p>
                                         </div>
                                     </div>    
                                 </div>
@@ -342,7 +336,7 @@
                 </div>
                 <!-- service area end -->
                 <!-- touch area end -->
-                <div class="touch-area ptb-90">
+                <!-- <div class="touch-area ptb-90">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4 col-sm-12 col-xs-12">
@@ -377,10 +371,10 @@
                             </div>
                         </div>
                     </div>
-                </div>    
+                </div>   -->  
                 <!-- touch area end -->
                 <!-- footer start -->
-                <footer class="footer-area">
+                <footer class="footer-area clearfix pt-30">
                     <div class="footer-middle-area ptb-60">
                         <div class="container">
                             <div class="row">
@@ -392,67 +386,25 @@
                                                 <i class="fa fa-map-marker"></i>
                                             </div>
                                             <div class="footer-contact-info">
-                                                <p>8901 Marmora Raod, </p>
-                                                <p>Glasgow, D04  89GR</p>
+                                                <p>Masjid Manarul Ilmi </p>
+                                                <p>Institut Teknologi Sepuluh Nopember</p>
+                                                <p>Sukolilo, Surabaya, 60111</p>
                                             </div>
                                         </div>
                                         <div class="single-footer-contact">
                                             <div class="footer-icon">
-                                                <i class="fa fa-phone"></i>
+                                                <i class="fa fa-instagram"></i>
                                             </div>
                                             <div class="footer-contact-info">
-                                                <p>Telephone : (801) 4256  9856</p>
-                                                <p>Telephone : (801) 4256  9658</p>
-                                            </div>
-                                        </div>
-                                        <div class="single-footer-contact">
-                                            <div class="footer-icon">
-                                                <i class="fa fa-globe"></i>
-                                            </div>
-                                            <div class="footer-contact-info">
-                                                <p>Email : <a href="#">admin@power-boosts.com</a></p>
-                                                <p>Web : <a href="http://bootexperts.com/">www.bootexperts.com</a></p>
+                                                <p><a href="http://instagram.com/mibs.bpu">@mibs.bpu</a></p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                <div class="col-md-8 col-sm-3 col-xs-12">
                                     <div class="footer-widget">
-                                        <h5>Company</h5>
-                                        <ul>
-                                            <li><a href="index.html"><i class="fa fa-circle"></i>Home</a></li>
-                                            <li><a href="about.html"><i class="fa fa-circle"></i>About us</a></li>
-                                            <li><a href="contact.html"><i class="fa fa-circle"></i>Contact us</a></li>
-                                            <li><a href="blog.html"><i class="fa fa-circle"></i>Our blog</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Supports center</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Privacy policy</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 hidden-sm col-xs-12">
-                                    <div class="footer-widget">
-                                        <h5>Support</h5>
-                                        <ul>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Delivery information</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Order tracking</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Return product</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Gift card</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Home delivery</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Online support</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-3 col-xs-12">
-                                    <div class="footer-widget">
-                                        <h5>Information</h5>
-                                        <ul>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Payment option</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Shipping</a></li>
-                                            <li><a href="checkout.html"><i class="fa fa-circle"></i>Checkout</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Discount</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Sitemap</a></li>
-                                            <li><a href="#"><i class="fa fa-circle"></i>Service</a></li>
-                                        </ul>
+                                        <h5>About Manarul Ilmi Book Store</h5>
+                                        <p style="color: white">Manarul Ilmi Book Store adalah sebuah usaha untuk jual-beli buku oleh Biro Dana Usaha BPU JMMI ITS. Maka dibuatlah web ini untuk penjualan buku-buku di MIBS secara online</p>
                                     </div>
                                 </div>
                             </div>
@@ -461,28 +413,14 @@
                     <div class="footer-bottom-area ptb-25">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="copyright">
-                                        <p>Copyright @ 2016 <span><a href="http://bootexperts.com/">BootExperts</a></span>. All right reserved. </p>
-                                    </div>
+                                <div class="copyright text-center">
+                                    <p>Copyright @ 2016 <span><a href="http://bootexperts.com/">BootExperts</a></span>. All right reserved. </p>
                                 </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="footer-menu text-center">
-                                        <nav>
-                                            <ul>
-                                                <li><a href="">Site Map</a></li>
-                                                <li><a href="contact.html">Contact Us</a></li>
-                                                <li class="hidden-md hidden-xs"><a href="wishlist.html">Wish List</a></li>
-                                                <li><a href="#">Newsletter</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 hidden-sm">
+                                <!-- <div class="col-md-4 hidden-sm">
                                     <div class="payment text-right">
                                         <img src="img/payment/mibs_logo.png" alt="">
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -494,55 +432,7 @@
         <!-- QUICKVIEW PRODUCT -->
         <div id="quickview-wrapper">
             <!-- Modal -->
-            <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="modal-product">
-                                <div class="product-images">
-                                    <div class="main-image images">
-                                        <img alt="" src="img/product/static2.jpg">
-                                    </div>
-                                </div><!-- .product-images -->
-
-                                <div class="product-info">
-                                    <h1>Diam quis cursus</h1>
-                                    <div class="price-box">
-                                        <p class="price"><span class="special-price"><span class="amount">$132.00</span></span></p>
-                                    </div>
-                                    <a href="shop.html" class="see-all">See all features</a>
-                                    <div class="quick-add-to-cart">
-                                        <form method="post" class="cart">
-                                            <div class="numbers-row">
-                                                <input type="number" id="french-hens" value="3">
-                                            </div>
-                                            <button class="single-add-to-cart-button" type="submit">Add to cart</button>
-                                        </form>
-                                    </div>
-                                    <div class="quick-desc">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum.
-                                    </div>
-                                    <div class="social-sharing">
-                                        <div class="widget widget_socialsharing_widget">
-                                            <h3 class="widget-title-modal">Share this product</h3>
-                                            <ul class="social-icons">
-                                                <li><a target="_blank" title="Facebook" href="#" class="facebook social-icon"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a target="_blank" title="Twitter" href="#" class="twitter social-icon"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="fa fa-pinterest"></i></a></li>
-                                                <li><a target="_blank" title="Google +" href="#" class="gplus social-icon"><i class="fa fa-google-plus"></i></a></li>
-                                                <li><a target="_blank" title="LinkedIn" href="#" class="linkedin social-icon"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div><!-- .product-info -->
-                            </div><!-- .modal-product -->
-                        </div><!-- .modal-body -->
-                    </div><!-- .modal-content -->
-                </div><!-- .modal-dialog -->
-            </div>
+            
             <!-- END Modal -->
         </div>
         <!-- END QUICKVIEW PRODUCT -->

@@ -22,4 +22,16 @@ class HomeController extends Controller
     {
         return view('pages.detail');
     }
+    public function cart()
+    {
+        return view('pages.cart');
+    }
+    public function checkout()
+    {
+        return view('pages.checkout');
+    }
+    public function invoice()
+    {
+        return view('pages.invoice');
+    }
 }

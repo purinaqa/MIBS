@@ -7,63 +7,63 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-		<!-- favicon
-		============================================ -->		
+        <!-- favicon
+        ============================================ -->        
         <link rel="shortcut icon" type="image/x-icon" href="{{asset('/img/favicon.ico')}}">
-		
-		<!-- Bootstrap CSS
-		============================================ -->		
+        
+        <!-- Bootstrap CSS
+        ============================================ -->        
         <link rel="stylesheet" href="{{asset('/css/bootstrap.min.css')}}">
         
         <!-- Nivo slider CSS
-		============================================ -->
-		<link rel="stylesheet" type="text/css" href="{{asset('/lib/custom-slider/css/nivo-slider.css')}}" media="screen" />	
-		<link rel="stylesheet" type="text/css" href="{{asset('/lib/custom-slider/css/preview.css')}}" media="screen" />
-		
-		<!-- Fontawsome CSS
-		============================================ -->
+        ============================================ -->
+        <link rel="stylesheet" type="text/css" href="{{asset('/lib/custom-slider/css/nivo-slider.css')}}" media="screen" /> 
+        <link rel="stylesheet" type="text/css" href="{{asset('/lib/custom-slider/css/preview.css')}}" media="screen" />
+        
+        <!-- Fontawsome CSS
+        ============================================ -->
         <link rel="stylesheet" href="{{asset('/css/font-awesome.min.css')}}">
           
         <!-- material iconic CSS
-		============================================ -->
+        ============================================ -->
         <link rel="stylesheet" href="{{asset('/css/material-design-iconic-font.css')}}">
         <link rel="stylesheet" href="{{asset('/css/material-design-iconic-font.min.css')}}">
                         
-		<!-- owl.carousel CSS
-		============================================ -->
+        <!-- owl.carousel CSS
+        ============================================ -->
         <link rel="stylesheet" href="{{asset('/css/owl.carousel.css')}}">
         
-		<!-- jquery-ui CSS
-		============================================ -->
+        <!-- jquery-ui CSS
+        ============================================ -->
         <link rel="stylesheet" href="{{asset('/css/jquery-ui.css')}}">
         
-		<!-- meanmenu CSS
-		============================================ -->
+        <!-- meanmenu CSS
+        ============================================ -->
         <link rel="stylesheet" href="{{asset('/css/meanmenu.min.css')}}">
         
-		<!-- animate CSS
-		============================================ -->
+        <!-- animate CSS
+        ============================================ -->
         <link rel="stylesheet" href="{{asset('/css/animate.css')}}">
           
         <!-- Animate headline CSS
-		============================================ -->
+        ============================================ -->
         <link rel="stylesheet" href="{{asset('/css/animate-heading.css')}}">
         <link rel="stylesheet" href="{{asset('/css/reset.css')}}">
         
-		<!-- Video CSS
-		============================================ -->
+        <!-- Video CSS
+        ============================================ -->
         <link rel="stylesheet" href="{{asset('/css/jquery.mb.YTPlayer.css')}}">
         
-		<!-- style CSS
-		============================================ -->
+        <!-- style CSS
+        ============================================ -->
         <link rel="stylesheet" href="{{asset('/style.css')}}">
         
-		<!-- responsive CSS
-		============================================ -->
+        <!-- responsive CSS
+        ============================================ -->
         <link rel="stylesheet" href="{{asset('/css/responsive.css')}}">
         
-		<!-- modernizr JS
-		============================================ -->		
+        <!-- modernizr JS
+        ============================================ -->        
         <script src="{{asset('/js/vendor/modernizr-2.8.3.min.js')}}"></script>   
     </head>
     <body>
@@ -97,7 +97,7 @@
                                                 <ul class="submenu-mainmenu">
                                                     <li><a href="/login"><i class="fa fa-circle"></i>Login</a></li>
                                                     <li><a href="account"><i class="fa fa-circle"></i>My Account</a></li>
-                                                    <li><a href="cart"><i class="fa fa-circle"></i>My Cart</a></li>
+                                                    <li><a href="/cart"><i class="fa fa-circle"></i>My Cart</a></li>
                                                     <li><a href="checkout"><i class="fa fa-circle"></i>Checkout</a></li>
                                                 </ul>
                                             </li>
@@ -108,7 +108,7 @@
                                     <div class="top-right">
                                         <div class="top-login-cart">
                                             <ul>
-                                                <li><a href="cart"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
+                                                <li><a href="/cart"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
                                                     <ul class="submenu-mainmenu">
                                                         <!-- foreach buat cart -->
                                                         <li class="single-cart-item clearfix">
@@ -126,7 +126,7 @@
                                                         <li>
                                                             <span class="sub-total-cart text-center">
                                                                 Sub Total <span>$620</span>
-                                                                <a href="cart" class="view-cart active">View Cart</a>
+                                                                <a href="/cart" class="view-cart active">View Cart</a>
                                                                 <a href="checkout" class="view-cart">Checkout</a>
                                                             </span>
                                                         </li>    
@@ -139,170 +139,98 @@
                             </div>
                         </div>   
                     </div>
-                    
-                    <div class="mainmenu-area text-center hidden-sm hidden-xs">
-                        <nav>
-                            <div class="mainmenu">
-                                <ul>
-                                    <li><a href="/">Home</a>
-                                    </li>
-                                    <li class="shop"><a href="shop-grid-right-sidebar.html">Kategori</a>
-                                        <ul class="submenu-mainmenu">
-                                            <li><a href="/"><i class="fa fa-circle"></i>Motivasi</a></li>
-                                            <li><a href="/"><i class="fa fa-circle"></i>Fiqih</a></li>
-                                            <li><a href="/"><i class="fa fa-circle"></i>Sirah</a></li>
-                                            <li><a href="/"><i class="fa fa-circle"></i>Novel Fiksi</a></li>
-                                            <li><a href="/"><i class="fa fa-circle"></i>Pendidikan</a></li>
-                                            <li><a href="/"><i class="fa fa-circle"></i>Lain-lain</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact">Contact</a></li>
-                                </ul>
-                            </div>
-                        </nav>                  
-                    </div>    
-                    <!-- Mobile Menu Area start -->
-                    <div class="mobile-menu-area">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <div class="mobile-menu">
-                                        <nav id="dropdown">
-                                            <ul>
-                                                <li><a href="/">Home</a>
-                                                </li>
-                                                <li class="shop"><a href="shop-grid-right-sidebar.html">Kategori</a>
-                                                    <ul class="submenu-mainmenu">
-                                                        <li><a href="/"><i class="fa fa-circle"></i>Motivasi</a></li>
-                                                        <li><a href="/"><i class="fa fa-circle"></i>Fiqih</a></li>
-                                                        <li><a href="/"><i class="fa fa-circle"></i>Sirah</a></li>
-                                                        <li><a href="/"><i class="fa fa-circle"></i>Novel Fiksi</a></li>
-                                                        <li><a href="/"><i class="fa fa-circle"></i>Pendidikan</a></li>
-                                                        <li><a href="/"><i class="fa fa-circle"></i>Lain-lain</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact">Contact</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>					
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Mobile Menu Area end -->		   
                 </header>
                 <!-- header end -->
-                 <!-- slider start -->
-                <div class="slider-wrap">
-                    <div class="preview-2">
-                        <div id="nivoslider" class="slides"> 
-                             <img src="img/slider/header.png" alt="" title="#slider-direction-1"  />
-                             <img src="img/slider/hastag.png" alt="" title="#slider-direction-2"  />
-                        </div>
-                        
-                    </div>
-                </div>
-                
-                <!--Start Product Details area  -->
-                <div class="product-detail-area pt-50">
+                <!-- cart start -->
+                <div class="cart-area-start mt-50">
                     <div class="container">
                         <div class="row">
-                            <div class="section-tab-menu text-center mb-45">
-                                <ul role="tablist">
-                                    <li role="presentation" class="active text-uppercase"><a aria-controls="" role="tab" data-toggle="tab">Details</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                <div class="zoomWrapper clearfix">
-                                    <div id="img-1" class="zoomWrapper single-zoom pull-right">
-                                        <a href="#">
-                                            <img id="zoom1" src="img/shop/big1.jpg" data-zoom-image="img/shop/big1.jpg" alt="big-1">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                                <div class="product-detail">
-                                    <div class="product-title">
-                                        <h2>((Judul Buku))</h2><br>
-                                        <h4>Rp. HargaBuku(ad)<del>HargaBuku(bd)</del></h4>
-                                    </div>   
-                                    <h5>Available: <span> In Stock</span> </h5>
-
-                                    <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidt utore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris    nisi ut aliquip ex ea commodo consequa uis aute irure dolor in reprehenderit. </p>
-                                    <div class="size-quantity clearfix">
-                                        <div class="quick-add-to-cart">
-                                        <form method="post" class="cart">
-                                            <div class="numbers-row">
-                                                <input type="number" id="french-hens" value="3">
-                                            </div>
-                                            <a href="/cart" class="single-add-to-cart-button" type="submit">Add to cart</a>
-                                        </form>
-                                    </div>    
-                                    </div>    
-                                    <div class="wish-icon-hover-list mt-30 mb-30 text-left">
-                                        <ul>
-                                            <li><a href="#" data-toggle="tooltip" title="shopping cart"><i class="fa fa-shopping-cart"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" title="Like it!"><i class="fa fa-heart"></i></a></li>
-                                            <li><a href="#" data-toggle="tooltip" title="refresh"><i class="fa fa-refresh"></i></a></li>
-                                        </ul>
-                                    </div>     
-                                    <div class="widget-color">
-                                       <h4 class="follow">Share:</h4>
-                                       <ul>
-                                           <li class="facebook"><a href=""><i class="fa fa-facebook"></i></a></li>
-                                           <li class="twitter"><a href=""><i class="fa fa-twitter"></i></a></li>
-                                           <li class="google-plus"><a href=""><i class="fa fa-google-plus"></i></a></li>
-                                           <li class="linkedin"><a href=""><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>   
-                                   </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="cart-tab-menu section-tab-menu pb-50 text-center">
+                                    <ul>
+                                        <li class="text-uppercase"><a href="/cart">Shopping Cart</a></li>
+                                        <li class="text-uppercase active"><a href="/checkout">Checkout</a></li>
+                                        <li class="text-uppercase"><a href="#">Invoice</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-12">
-                                <div class="product-description-tab pt-50">
-                                    <div class="description-tab-menu section-tab-menu pb-30">
-                                        <ul class="clearfix" role="tablist">
-                                            <li role="presentation" class="active"><a href="#description" aria-controls="description" role="tab" data-toggle="tab">Description</a></li>
-                                            <li role="presentation"><a href="#specification" aria-controls="specification" role="tab" data-toggle="tab">information</a></li>
-                                            <li role="presentation"><a href="#review" aria-controls="review" role="tab" data-toggle="tab">Reviews</a></li>
-                                      </ul>
+                            <div class="col-md-6">
+                                <div class="billing-detail">
+                                    <div class="section-title">
+                                        <h4 class="text-uppercase mb-35">Billing detail</h4>
+                                    </div>    
+                                    <form action="#">
+                                        <div class="row">
+                                            <p class="col-sm-6 col-xs-12">
+                                                First Name <span>*</span><br>
+                                                <input type="text" placeholder="First name">
+                                            </p>
+                                            <p class="col-sm-6 col-xs-12">
+                                                Last Name <span>*</span><br>
+                                                <input type="text" placeholder="Last name">
+                                            </p>
+                                        </div>
+                                        <div class="row">
+                                            <p class="col-sm-6 col-xs-12">
+                                                Email Address <span>*</span><br>
+                                                <input type="text" placeholder="Email address">
+                                            </p>
+                                            <p class="col-sm-6 col-xs-12">
+                                                Phone No. <span>*</span><br>
+                                                <input type="text" placeholder="Phone no.">
+                                            </p>
+                                        </div>
+                                        <p id="address">Address <span>*</span><br>
+                                        <textarea type="text" placeholder="Address"></textarea>
+                                        </p>
+                                        <div class="row">
+                                            <p class="col-sm-6 col-xs-12">
+                                                Town/City <span>*</span><br>
+                                                <input type="text" placeholder="Town/City">
+                                            </p>
+                                            <p class="col-sm-6 col-xs-12">
+                                                Zip Code <span>*</span><br>
+                                                <input type="text" placeholder="Zip Code">
+                                            </p>
+                                        </div>   
+                                    </form>
+                                </div>
+                            </div>    
+                            <div class="col-md-6">
+                                <div class="total-cart">
+                                    <div class="section-title">
+                                        <h4 class="text-uppercase mb-48">Cart total</h4>
                                     </div>
-                                    <div class="tab-content">
-                                        <div role="tabpanel" class="tab-pane active" id="description">
-                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla patur. Excepteur sint occaecat cupidatat non proident reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-
-                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane" id="specification">
-                                            <div class="col-xs-12">
-                                                <div class="col-xs-3"><p><b>Author</b></p></div>
-                                                <div class="col-xs-9 text-left"><p>Udin Syamsudin</p></div>
-                                            </div>
-                                            <div class="col-xs-12">
-                                                <div class="col-xs-3"><p><b>Publisher</b></p></div>
-                                                <div class="col-xs-9 text-left"><p>Pro Media</p></div>
-                                            </div>
-                                            <div class="col-xs-12">
-                                                <div class="col-xs-3"><p><b>Year</b></p></div>
-                                                <div class="col-xs-9 text-left"><p>2017</p></div>
-                                            </div>
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane" id="review">
-                                            <p>Similique animi consequatur pariatur voluptas tempore, dolores obcaecati dolorum quia odit harum. Quos nemo, minima totam quidem ipsum labore.</p>
+                                    <div class="your-order">
+                                        <div class="order-table">
                                             <ul>
-                                                <li> <i class="fa fa-circle"></i> Minus placeat eligendi neque doloribus sed ratione repellendus a illo similique, sint quisquam perferendis eum nam nihil dolor fugit blanditiis, explicabo, recusandae hic qui exercitationem aspernatur excepturi voluptate unde. </li>
-                                                <li> <i class="fa fa-circle"></i> Quaerat magnam, perferendis, sapiente doloremque error omnis esse in saepe quos eveniet quasi ex fugit eligendi consectetur nobis amet. </li>
+                                                <li>
+                                                    <h5 class="focus">Product <span>Total</span></h5>
+                                                    <p>Eletria ostma    <span> x  02</span><span>$300.00</span></p>
+                                                    <p>Celletria ostma  <span> x  01</span><span>$120.00</span></p>
+                                                    <p>Pelletria ostma  <span> x  02</span><span>$200.00</span></p>
+                                                </li>
+                                                <li>
+                                                    <h5>Sub total <span>$620.00</span></h5>
+                                                </li>
+                                                <li>
+                                                    <h5>Shipping <span>$0.00</span></h5>
+                                                </li>
+                                                <li class="order-total-purple">
+                                                    <h5 class="focus">Grand Total <span>$620.00</span></h5>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
+                                    <a href="/invoice" class="section-button text-right">Place Order</a>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                     </div>
                 </div>
-                <!--End Product Details area  --> 
+                <!-- cart end --> 
                 
                 <!-- client area end -->
                 <!-- service area end -->
@@ -528,59 +456,59 @@
         </div>
         <!-- END QUICKVIEW PRODUCT -->
         
-       	
-       	<!-- jquery
-		============================================ -->		
+        
+        <!-- jquery
+        ============================================ -->        
         <script src="{{asset('/js/vendor/jquery-1.12.4.min.js')}}"></script>
-		<!-- bootstrap JS
-		============================================ -->		
-        <script src="{{asset('/js/bootstrap.min.js')}}"></script>		
-		<!-- meanmenu JS
-		============================================ -->		
+        <!-- bootstrap JS
+        ============================================ -->        
+        <script src="{{asset('/js/bootstrap.min.js')}}"></script>       
+        <!-- meanmenu JS
+        ============================================ -->        
         <script src="{{asset('/js/jquery.meanmenu.js')}}"></script>
-		<!-- wow JS
-		============================================ -->		
+        <!-- wow JS
+        ============================================ -->        
         <script src="{{asset('/js/wow.min.js')}}"></script>
-		<!-- owl.carousel JS
-		============================================ -->		
+        <!-- owl.carousel JS
+        ============================================ -->        
         <script src="{{asset('/js/owl.carousel.min.js')}}"></script>
-		<!-- counterdown JS
-		============================================ -->		
+        <!-- counterdown JS
+        ============================================ -->        
         <script src="{{asset('/js/jquery.countdown.min.js')}}"></script>
         <!-- Video Player JS
-		============================================ -->		
+        ============================================ -->        
         <script src="{{asset('/js/jquery.mb.YTPlayer.js')}}"></script>
         <!-- AJax Chimp JS
-        ============================================ -->		
+        ============================================ -->        
         <script src="{{asset('/js/jquery.ajaxchimp.min.js')}}"></script> 
-		<!-- price slider JS
-		============================================ -->		
+        <!-- price slider JS
+        ============================================ -->        
         <script src="{{asset('/js/jquery-price-slider.js')}}"></script> 
-		<!-- elevator JS
-		============================================ -->		
+        <!-- elevator JS
+        ============================================ -->        
         <script src="{{asset('/js/jquery.elevateZoom-3.0.8.min.js')}}"></script> 
-		<!-- scrollUp JS
-		============================================ -->		
+        <!-- scrollUp JS
+        ============================================ -->        
         <script src="{{asset('/js/jquery.scrollUp.min.js')}}"></script>
-		<!-- plugins JS
-		============================================ -->		
+        <!-- plugins JS
+        ============================================ -->        
         <script src="{{asset('/js/plugins.js')}}"></script>
-   		<!-- Nevo Slider js
-		============================================ -->         
-		<script type="text/javascript" src="{{asset('/lib/custom-slider/js/jquery.nivo.slider.js')}}"></script>
-        <script type="text/javascript" src="{{asset('/lib/custom-slider/home.js')}}"></script>          		 
-		<!-- textillate js
-		============================================ -->         
-        <script src="{{asset('/js/jquery.textillate.js')}}"></script>      		 
+        <!-- Nevo Slider js
+        ============================================ -->         
+        <script type="text/javascript" src="{{asset('/lib/custom-slider/js/jquery.nivo.slider.js')}}"></script>
+        <script type="text/javascript" src="{{asset('/lib/custom-slider/home.js')}}"></script>                   
+        <!-- textillate js
+        ============================================ -->         
+        <script src="{{asset('/js/jquery.textillate.js')}}"></script>            
         <script src="{{asset('/js/jquery.lettering.js')}}"></script>  
         <!-- animated headline js
-		============================================ -->         
+        ============================================ -->         
         <script src="{{asset('/js/animate-heading.js')}}"></script>  
         <!-- ajax js
-		============================================ -->         
-        <script src="{{asset('/js/ajax-mail.js')}}"></script>     		 
-		<!-- main JS
-		============================================ -->	
+        ============================================ -->         
+        <script src="{{asset('/js/ajax-mail.js')}}"></script>            
+        <!-- main JS
+        ============================================ -->    
         <script src="{{asset('/js/main.js')}}"></script>
     </body>
 </html>

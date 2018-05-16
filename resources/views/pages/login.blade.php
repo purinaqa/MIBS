@@ -34,7 +34,7 @@
                 <div class="new-login-box">
                     <div class="white-box">
                         <h3 class="box-title m-b-0">Login</h3> <small>Enter your details below</small>
-                        <form class="form-horizontal new-lg-form" id="loginform" action="index.html">
+                        <form class="form-horizontal new-lg-form" id="loginform" action="/index">
                             <div class="form-group ">
                                 <div class="col-xs-12">
                                     <input class="form-control" type="text" required="" placeholder="Username"> 

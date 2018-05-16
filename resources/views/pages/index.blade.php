@@ -93,12 +93,12 @@
                                     <div class="account-usd text-left">
                                         <ul>
                                             <li class=" hidden-xs"><a href="/register">Register</a></li>
-                                            <li><a href="account.html">My Account <i class="fa fa-angle-down"></i></a>
+                                            <li><a href="account">My Account <i class="fa fa-angle-down"></i></a>
                                                 <ul class="submenu-mainmenu">
                                                     <li><a href="/login"><i class="fa fa-circle"></i>Login</a></li>
-                                                    <li><a href="account.html"><i class="fa fa-circle"></i>My Account</a></li>
-                                                    <li><a href="cart.html"><i class="fa fa-circle"></i>My Cart</a></li>
-                                                    <li><a href="checkout.html"><i class="fa fa-circle"></i>Checkout</a></li>
+                                                    <li><a href="account"><i class="fa fa-circle"></i>My Account</a></li>
+                                                    <li><a href="cart"><i class="fa fa-circle"></i>My Cart</a></li>
+                                                    <li><a href="checkout"><i class="fa fa-circle"></i>Checkout</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -108,7 +108,7 @@
                                     <div class="top-right">
                                         <div class="top-login-cart">
                                             <ul>
-                                                <li><a href="cart.html"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
+                                                <li><a href="cart"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
                                                     <ul class="submenu-mainmenu">
                                                         <!-- foreach buat cart -->
                                                         <li class="single-cart-item clearfix">
@@ -126,8 +126,8 @@
                                                         <li>
                                                             <span class="sub-total-cart text-center">
                                                                 Sub Total <span>$620</span>
-                                                                <a href="cart.html" class="view-cart active">View Cart</a>
-                                                                <a href="checkout.html" class="view-cart">Checkout</a>
+                                                                <a href="cart" class="view-cart active">View Cart</a>
+                                                                <a href="checkout" class="view-cart">Checkout</a>
                                                             </span>
                                                         </li>    
                                                     </ul>
@@ -156,7 +156,7 @@
                                             <li><a href="/"><i class="fa fa-circle"></i>Lain-lain</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>                  
@@ -181,7 +181,7 @@
                                                         <li><a href="/"><i class="fa fa-circle"></i>Lain-lain</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="contact">Contact</a></li>
                                             </ul>
                                         </nav>
                                     </div>					
@@ -229,7 +229,7 @@
                                                                     <div class="hover-text">
                                                                         <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
                                                                         <ul>
-                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"></i></a></li>
+                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
                                                                         </ul>
                                                                     </div>    
                                                                 </div>
@@ -342,7 +342,7 @@
                             <div class="col-md-4 col-sm-12 col-xs-12">
                                 <div class="touch-left">
                                     <div class="touch-logo mb-35">
-                                        <a href="index.html"><img src="img/logo/2.png" alt="shofixe"></a>
+                                        <a href="index"><img src="img/logo/2.png" alt="shofixe"></a>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, consectetur adi elit, sed do eiusmod tempor incididunt ut ore  dolore magna aliqua. Ut enim ad minim eniam</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adi elit, sed do eiusmod tempor incididunt ut</p>

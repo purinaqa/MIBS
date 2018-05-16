@@ -93,12 +93,12 @@
                                     <div class="account-usd text-left">
                                         <ul>
                                             <li class=" hidden-xs"><a href="/register">Register</a></li>
-                                            <li><a href="account.html">My Account <i class="fa fa-angle-down"></i></a>
+                                            <li><a href="account">My Account <i class="fa fa-angle-down"></i></a>
                                                 <ul class="submenu-mainmenu">
                                                     <li><a href="/login"><i class="fa fa-circle"></i>Login</a></li>
-                                                    <li><a href="account.html"><i class="fa fa-circle"></i>My Account</a></li>
-                                                    <li><a href="cart.html"><i class="fa fa-circle"></i>My Cart</a></li>
-                                                    <li><a href="checkout.html"><i class="fa fa-circle"></i>Checkout</a></li>
+                                                    <li><a href="account"><i class="fa fa-circle"></i>My Account</a></li>
+                                                    <li><a href="/cart"><i class="fa fa-circle"></i>My Cart</a></li>
+                                                    <li><a href="checkout"><i class="fa fa-circle"></i>Checkout</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -108,7 +108,7 @@
                                     <div class="top-right">
                                         <div class="top-login-cart">
                                             <ul>
-                                                <li><a href="cart.html"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
+                                                <li><a href="/cart"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
                                                     <ul class="submenu-mainmenu">
                                                         <!-- foreach buat cart -->
                                                         <li class="single-cart-item clearfix">
@@ -126,8 +126,8 @@
                                                         <li>
                                                             <span class="sub-total-cart text-center">
                                                                 Sub Total <span>$620</span>
-                                                                <a href="cart.html" class="view-cart active">View Cart</a>
-                                                                <a href="checkout.html" class="view-cart">Checkout</a>
+                                                                <a href="/cart" class="view-cart active">View Cart</a>
+                                                                <a href="checkout" class="view-cart">Checkout</a>
                                                             </span>
                                                         </li>    
                                                     </ul>
@@ -148,9 +148,9 @@
                             <div class="col-md-12 col-sm-12">
                                 <div class="cart-tab-menu section-tab-menu pb-50 text-center">
                                     <ul>
-                                        <li class="text-uppercase active"><a href="cart.html">Shopping Cart</a></li>
-                                        <li class="text-uppercase"><a href="">Checkout</a></li>
-                                        <li class="text-uppercase"><a href="">Order Complete</a></li>
+                                        <li class="text-uppercase active"><a href="/cart">Shopping Cart</a></li>
+                                        <li class="text-uppercase"><a href="#">Checkout</a></li>
+                                        <li class="text-uppercase"><a href="#">Invoice</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -177,9 +177,9 @@
                                                         <a href="#">Imaontria jastma</a>
                                                         <p>Lorem ipsum dolor sit <span>amet, consectetur</span></p>
                                                     </td>
-                                                    <td class="p-amount"><span class="amount">$165</span></td>
-                                                    <td class="p-quantity"><input type="text" value="2"></td>
-                                                    <td class="p-total">$330 <a href="#"><i class="fa fa-trash"></i></a></td>
+                                                    <td class="p-amount"><span class="amount">Rp. 76.000</span></td>
+                                                    <td class="p-quantity"><input type="text" value="1"></td>
+                                                    <td class="p-total">Rp. 76.000 <a href="#"><i class="fa fa-trash"></i></a></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -198,9 +198,8 @@
                                         <div class="shipping-info">
                                             <div class="col-md-6">
                                                 <select name="country">
-                                                    <option>Country</option>
-                                                    <option>Courir Delivery Service</option>
                                                     <option>Cash On Delovery</option>
+                                                    <option>Courir Delivery Service</option>
                                                 </select>
                                             </div>
                                             <div class="col-md-6">
@@ -220,20 +219,19 @@
                                         <table>
                                             <tbody>
                                                 <tr class="s-total">
-                                                    <td>Sub Total <span>$760.00</span></td>
+                                                    <td>Sub Total <span>Rp. 76.000</span></td>
                                                 </tr>
                                                 <tr class="s-total">
-                                                    <td>Shipping <span>$0.00</span></td>
+                                                    <td>Shipping <span>Rp 0</span></td>
                                                 </tr>
                                                 <tr class="g-total">
-                                                    <td>Grand Total<span class="grand">$760.00</span></td>
+                                                    <td>Grand Total<span class="grand">Rp. 76.000</span></td>
                                                 </tr>                                           
                                             </tbody>
                                         </table>
                                     </div>
                                     <div class="check-update pull-right">
-                                        <a href="#" class="mt-25 mr-25 section-button">Update</a>
-                                        <a href="checkout.html" class="checkout mt-25 section-button">Checkout</a>
+                                        <a href="checkout" class="checkout mt-25 section-button">Checkout</a>
                                     </div>    
                                 </div>
                             </div>
@@ -323,7 +321,7 @@
                             <div class="col-md-4 col-sm-12 col-xs-12">
                                 <div class="touch-left">
                                     <div class="touch-logo mb-35">
-                                        <a href="index.html"><img src="img/logo/2.png" alt="shofixe"></a>
+                                        <a href="index"><img src="img/logo/2.png" alt="shofixe"></a>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, consectetur adi elit, sed do eiusmod tempor incididunt ut ore  dolore magna aliqua. Ut enim ad minim eniam</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adi elit, sed do eiusmod tempor incididunt ut</p>
@@ -432,7 +430,7 @@
                                     <div class="price-box">
                                         <p class="price"><span class="special-price"><span class="amount">$132.00</span></span></p>
                                     </div>
-                                    <a href="shop.html" class="see-all">See all features</a>
+                                    <a href="shop" class="see-all">See all features</a>
                                     <div class="quick-add-to-cart">
                                         <form method="post" class="cart">
                                             <div class="numbers-row">

@@ -15,5 +15,6 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/register', 'HomeController@regist');
 Route::get('/login', 'HomeController@login');
 Route::get('/detail', 'HomeController@detailbuku');
-
-Route::get('/cart', 'CartController@index');
+Route::get('/cart', 'HomeController@cart');
+Route::get('/checkout', 'HomeController@checkout');
+Route::get('/invoice', 'HomeController@invoice');

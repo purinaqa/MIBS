@@ -592,7 +592,7 @@ hr {
                 <div class="row">
                     <div class="col-md-12 col-lg-8 col-sm-12" style="width: 100%;">
                         <div class="panel">
-                             <div class="row">
+                            <!--  <div class="row">
                                 <div class="col col-xs-3">
                                     <div class="panel-heading">DAFTAR BUKU</div>
                                 </div>
@@ -603,8 +603,22 @@ hr {
                                  <div class="col-xs-3 " style="margin-left: 10px">
                                     <button onclick="document.getElementById('id01').style.display='block'" style="width: 120px; background-color: #4db8ff; margin-top: 20px; height: 40px; margin-left: 110px">Add Book</button>
                                 </div>
-                                
-                               
+                           </div> -->
+                            <div class="row">
+                                <div class="col col-xs-6">
+                                    <div class="panel-heading">DAFTAR BUKU</div>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <div class="row">
+                                        <div class="col col-xs-6">
+                                            <form role="search" class="app-search hidden-sm hidden-xs m-r-10">
+                                            <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
+                                        </div>
+                                        <div class="col col-xs-6">
+                                            <button onclick="document.getElementById('id01').style.display='block'" style="width: 120px; background-color: #4db8ff; margin-top: 20px; height: 30px; margin-right: 30px; padding-top: 5px">Add Book</button>
+                                        </div>
+                                    </div>
+                                </div>
                            </div>
                             <div class="table-responsive">
                                 <table class="table table-hover manage-u-table">
@@ -612,7 +626,8 @@ hr {
                                         <tr>
                                             <th style="width: 70px;" class="text-center">#</th>
                                             <th>KATEGORI BUKU</th>
-                                            <th>NAMA BUKU</th>
+                                            <th>JUDUL BUKU</th>
+                                            <th>TAHUN TERBIT BUKU</th>
                                             <th>NAMA PENGARANG</th>
                                             <th>NAMA PENERBIT</th>
                                             <th>STOK BUKU</th>
@@ -628,6 +643,9 @@ hr {
                                                 <br/><span class="text-muted">Past : teacher</span></td>
                                             <td>daniel@website.com
                                                 <br/><span class="text-muted">999 - 444 - 555</span></td>
+                                            <td>
+                                                <br/><span class="text-muted">999 - 444 - 555</span>
+                                            </td>
                                             <td>
                                                 <br/><span class="text-muted">999 - 444 - 555</span>
                                             </td>
@@ -648,6 +666,9 @@ hr {
                                                 <br/><span class="text-muted">999 - 444 - 555</span></td>
                                             <td>daniel@website.com
                                                 <br/><span class="text-muted">999 - 444 - 555</span></td>
+                                            <td>
+                                                <br/><span class="text-muted">999 - 444 - 555</span>
+                                            </td>
                                             <td>daniel@website.com
                                                 <br/><span class="text-muted">999 - 444 - 555</span></td>
                                             <td>
@@ -665,6 +686,9 @@ hr {
                                                 <br/><span class="text-muted">999 - 444 - 555</span></td>
                                             <td>daniel@website.com
                                                 <br/><span class="text-muted">999 - 444 - 555</span></td>
+                                            <td>
+                                                <br/><span class="text-muted">999 - 444 - 555</span>
+                                            </td>
                                             <td>daniel@website.com
                                                 <br/><span class="text-muted">999 - 444 - 555</span></td>
                                             <td>
@@ -784,8 +808,11 @@ hr {
       <label for="email"><b>Kategori Buku</b></label>
       <input type="text" placeholder="Enter Book Category" name="email" required>
       
-      <label for="email"><b>Nama Buku</b></label>
+      <label for="email"><b>Judul Buku</b></label>
       <input type="text" placeholder="Enter Book Name" name="email" required>
+
+      <label for="email"><b>Tahun Terbit Buku</b></label>
+      <input type="text" placeholder="Enter Book Year" name="email" required>
 
       <label for="email"><b>Nama Pengarang</b></label>
       <input type="text" placeholder="Enter Author's Name" name="email" required>

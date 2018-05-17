@@ -20,3 +20,8 @@ Route::get('/checkout', 'HomeController@checkout');
 Route::get('/invoice', 'HomeController@invoice');
 
 Route::get('/profile-pembeli', 'DPController@profile');
+
+Route::get('/admin-book', 'DAController@book');
+Route::get('/admin-pembelian', 'DAController@pembelian');
+Route::get('/admin-pemesanan', 'DAController@pemesanan');
+Route::get('/admin-penjualan', 'DAController@penjualan');

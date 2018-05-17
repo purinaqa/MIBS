@@ -230,7 +230,7 @@
                                             <div class="numbers-row">
                                                 <input type="number" id="french-hens" value="3">
                                             </div>
-                                            <a href="/cart" class="single-add-to-cart-button" type="submit">Add to cart</a>
+                                            <a href="/cart" class="single-add-to-cart-button pt-10" type="submit" style="padding-top:12px;">Add to cart</a>
                                         </form>
                                     </div>    
                                     </div>    

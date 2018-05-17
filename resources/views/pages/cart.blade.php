@@ -92,15 +92,27 @@
                                <div class="col-md-6">
                                     <div class="account-usd text-left">
                                         <ul>
+                                            <li class=" hidden-xs"><a href="/">Home</a></li>
                                             <li class=" hidden-xs"><a href="/register">Register</a></li>
                                             <li><a href="account">My Account <i class="fa fa-angle-down"></i></a>
                                                 <ul class="submenu-mainmenu">
                                                     <li><a href="/login"><i class="fa fa-circle"></i>Login</a></li>
                                                     <li><a href="account"><i class="fa fa-circle"></i>My Account</a></li>
-                                                    <li><a href="/cart"><i class="fa fa-circle"></i>My Cart</a></li>
+                                                    <li><a href="cart"><i class="fa fa-circle"></i>My Cart</a></li>
                                                     <li><a href="checkout"><i class="fa fa-circle"></i>Checkout</a></li>
                                                 </ul>
                                             </li>
+                                            <li><a href="account">Kategori<i class="fa fa-angle-down"></i></a>
+                                                <ul class="submenu-mainmenu">
+                                                    <li><a href="/"><i class="fa fa-circle"></i>Motivasi</a></li>
+                                                    <li><a href="/"><i class="fa fa-circle"></i>Fiqih</a></li>
+                                                    <li><a href="/"><i class="fa fa-circle"></i>Sirah</a></li>
+                                                    <li><a href="/"><i class="fa fa-circle"></i>Novel Fiksi</a></li>
+                                                    <li><a href="/"><i class="fa fa-circle"></i>Pendidikan</a></li>
+                                                    <li><a href="/"><i class="fa fa-circle"></i>Lain-lain</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class=" hidden-xs"><a href="/">Contact</a></li>
                                         </ul>
                                     </div>
                                </div>

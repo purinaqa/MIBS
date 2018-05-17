@@ -18,3 +18,5 @@ Route::get('/detail', 'HomeController@detailbuku');
 Route::get('/cart', 'HomeController@cart');
 Route::get('/checkout', 'HomeController@checkout');
 Route::get('/invoice', 'HomeController@invoice');
+
+Route::get('/profile-pembeli', 'DPController@profile');

@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('/plugins/images/favicon.png')}}">
     <title>Login Akun</title>
     <!-- Bootstrap Core CSS -->
-    <link href="{{asset('/bootstrap2/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- animation CSS -->
     <link href="{{asset('/css2/animate.css')}}" rel="stylesheet">
     <!-- Custom CSS -->
@@ -34,7 +34,7 @@
                 <div class="new-login-box">
                     <div class="white-box">
                         <h3 class="box-title m-b-0">Login</h3> <small>Enter your details below</small>
-                        <form class="form-horizontal new-lg-form" id="loginform" action="/index">
+                        <form class="form-horizontal new-lg-form" id="loginform" action="/profile-pembeli">
                             <div class="form-group ">
                                 <div class="col-xs-12">
                                     <input class="form-control" type="text" required="" placeholder="Username"> 

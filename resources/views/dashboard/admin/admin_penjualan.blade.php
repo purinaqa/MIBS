@@ -100,7 +100,6 @@
                 <ul class="nav" id="side-menu">
                     <li> <a href="/admin-book" class="waves-effect"><i  class="mdi mdi-book-multiple fa-fw"></i> <span class="hide-menu">Kelola Buku</span></a> </li>
                     <li> <a href="/admin-pembelian" class="waves-effect"><i  class="mdi mdi-shopping fa-fw"></i> <span class="hide-menu">Kelola Pembelian</span></a> </li>
-                    <li> <a href="/admin-pemesanan" class="waves-effect"><i  class="mdi mdi-clipboard-arrow-down fa-fw"></i> <span class="hide-menu">Kelola Pemesanan</span></a> </li>
                     <li> <a href="/admin-penjualan" class="waves-effect"><i  class="mdi mdi-elevation-rise fa-fw"></i> <span class="hide-menu">Kelola Penjualan</span></a> </li>                    <li class="devider"></li>
                     <li class="devider"></li>
                     <li><a href="/login" class="waves-effect"><i class="mdi mdi-logout fa-fw"></i> <span class="hide-menu">Log out</span></a></li>
@@ -123,87 +122,141 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-8 col-sm-12" style="width: 100%;">
                         <div class="panel">
-                             <div class="row">
+                            <div class="row">
                                 <div class="col col-xs-6">
                                     <div class="panel-heading">DAFTAR PENJUALAN</div>
                                 </div>
-                                <div class="col-xs-6 text-right">
+                                <div class="col-xs-6 text-right" >
                                     <form role="search" class="app-search hidden-sm hidden-xs m-r-10">
-                            <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
+                                    <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
                                 </div>
-                           </div>
+                                 <!-- <div class="col-xs-3 " style="margin-left: 10px">
+                                    <button onclick="document.getElementById('id01').style.display='block'" style="width: 120px; background-color: #4db8ff; margin-top: 20px; height: 40px; margin-left: 110px">Add Book</button>
+                                </div> -->
+                            </div>
+
                             <div class="table-responsive">
                                 <table class="table table-hover manage-u-table">
                                     <thead>
                                         <tr>
                                             <th style="width: 70px;" class="text-center">#</th>
-                                            <th>KODE PENJUALAN</th>
-                                            <th>TANGGAL PENJUALAN</th>
-                                            <th>NAMA CUSTOMER</th>
-                                            <th>KATEGORI BUKU</th>
-                                            <th>NAMA BUKU</th>
-                                            <th>NAMA PENGARANG</th>
-                                            <th>STATUS</th>
+                                            <th>Transaction ID</th>
+                                            <th>Date</th>
+                                            <th>Customer</th>
+                                            <th>Book ID</th>
+                                            <th>Qty</th>
+                                            <th>Total Payment</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td class="text-center">1</td>
-                                            <td><span class="font-medium">Daniel Kristeen</span>
-                                                <br/><span class="text-muted">Texas, Unitedd states</span></td>
-                                            <td>Visual Designer
-                                                <br/><span class="text-muted">Past : teacher</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>
-                                                <br/><span class="text-muted">999 - 444 - 555</span>
-                                            </td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>
-                                                <br/><span class="text-muted">LUNAS</span></td>
-                                            </td>
+                                            <td><span class="font-medium">A001</span>
+                                                <br/><!-- <span class="text-muted">April 18, 2017</span> --></td>
+                                            <td>April 18, 2017
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>NahdaFA
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>B001
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>1
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            
+                                            <td>Rp 75.000,-
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">2</td>
-                                            <td><span class="font-medium">Daniel Kristeen</span>
-                                                <br/><span class="text-muted">Texas, Unitedd states</span></td>
-                                            <td>Visual Designer
-                                                <br/><span class="text-muted">Past : teacher</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>
-                                                <br/><span class="text-muted">999 - 444 - 555</span>
-                                            </td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>
-                                                <br/><span class="text-muted">LUNAS</span></td>
-                                            </td>
+                                            <td><span class="font-medium">A002</span>
+                                                <br/><!-- <span class="text-muted">April 18, 2017</span> --></td>
+                                            <td>April 15, 2017
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>NuzulRY
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>B003
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>2
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            
+                                            <td>Rp 90.000,-
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">3</td>
-                                            <td><span class="font-medium">Daniel Kristeen</span>
-                                                <br/><span class="text-muted">Texas, Unitedd states</span></td>
-                                            <td>Visual Designer
-                                                <br/><span class="text-muted">Past : teacher</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>
-                                                <br/><span class="text-muted">999 - 444 - 555</span>
-                                            </td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>
-                                                <br/><span class="text-muted">LUNAS</span></td>
-                                            </td>
+                                            <td><span class="font-medium">A003</span>
+                                                <br/><!-- <span class="text-muted">April 18, 2017</span> --></td>
+                                            <td>April 19, 2017
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>PurinaQA
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>B002
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>1
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            
+                                            <td>Rp 60.000,-
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
                                         </tr>
+
+                                        <tr>
+                                            <td class="text-center">1</td>
+                                            <td><span class="font-medium">A004</span>
+                                                <br/><!-- <span class="text-muted">April 18, 2017</span> --></td>
+                                            <td>April 22, 2017
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>Bala minceu
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>B013
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>1
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            
+                                            <td>Rp 25.000,-
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="row">
+                                <div class="col col-xs-6">
+                                    <div class="panel-heading">MONTHLY INCOME</div>
+                                </div>
+                                <div class="col-xs-6 text-right" >
+                                    <form role="search" class="app-search hidden-sm hidden-xs m-r-10">
+                                    <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
+                                </div>
+                                 <!-- <div class="col-xs-3 " style="margin-left: 10px">
+                                    <button onclick="document.getElementById('id01').style.display='block'" style="width: 120px; background-color: #4db8ff; margin-top: 20px; height: 40px; margin-left: 110px">Add Book</button>
+                                </div> -->
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table table-hover manage-u-table">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 70px;" class="text-center">#</th>
+                                            <th>Month</th>
+                                            <th>Income</th>
+                                            <!-- <th>Customer</th>
+                                            <th>Book ID</th>
+                                            <th>Qty</th>
+                                            <th>Total Payment</th>
+                                            <th>Status</th>
+                                            <th>Manage Status</th> -->
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">1</td>
+                                            <td><span class="font-medium">March</span>
+                                                <br/><!-- <span class="text-muted">April 18, 2017</span> --></td>
+                                            <td>Rp 500.000,-
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td></tr>
                                     </tbody>
                                 </table>
                             </div>

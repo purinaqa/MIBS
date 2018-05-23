@@ -205,13 +205,293 @@
                                 <div class="section-tab">
                                     <div class="section-tab-menu text-center mb-45">
                                         <ul role="tablist">
-                                            <li role="presentation" class="active text-uppercase"><a aria-controls="" role="tab" data-toggle="tab">Colections</a></li>
+                                            <li role="presentation" class="active text-uppercase"><a aria-controls="" role="tab" data-toggle="tab">Collections</a></li>
                                         </ul>
                                     </div>
                                     <div class="clearfix"></div>
-                                    <div class="tab-content row">
-                                        <!-- <div id="new" role="tabpanel" class="active section-tab-item"> -->
-                                            <!-- <div class="tab-item-slider"> -->
+                                    <table>
+                                        <tr>
+                                            <div class="col-xs-3 col-width">  
+                                                    <div class="single-product">
+                                                        <div class="single-product-item clearfix">
+                                                            <div class="single-product-img clearfix">
+                                                                <a href="#">
+                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                </a>
+                                                                <div class="wish-icon-hover text-center clearfix">
+                                                                    <div class="hover-text">
+                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
+                                                                        </ul>
+                                                                    </div>    
+                                                                </div>
+                                                            </div>
+                                                            <div class="single-product-info clearfix">
+                                                                <div class="pro-rating">  
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>  
+                                                                </div> 
+                                                                <div class="pro-price">
+                                                                    <span class="new-price">Rp 45.000</span>
+                                                                    <span class="old-price">Rp 50.000</span>
+                                                                </div> 
+                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="col-xs-3 col-width">  
+                                                    <div class="single-product">
+                                                        <div class="single-product-item clearfix">
+                                                            <div class="single-product-img clearfix">
+                                                                <a href="#">
+                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                </a>
+                                                                <div class="wish-icon-hover text-center clearfix">
+                                                                    <div class="hover-text">
+                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
+                                                                        </ul>
+                                                                    </div>    
+                                                                </div>
+                                                            </div>
+                                                            <div class="single-product-info clearfix">
+                                                                <div class="pro-rating">  
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>  
+                                                                </div> 
+                                                                <div class="pro-price">
+                                                                    <span class="new-price">Rp 45.000</span>
+                                                                    <span class="old-price">Rp 50.000</span>
+                                                                </div> 
+                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="col-xs-3 col-width">  
+                                                    <div class="single-product">
+                                                        <div class="single-product-item clearfix">
+                                                            <div class="single-product-img clearfix">
+                                                                <a href="#">
+                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                </a>
+                                                                <div class="wish-icon-hover text-center clearfix">
+                                                                    <div class="hover-text">
+                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
+                                                                        </ul>
+                                                                    </div>    
+                                                                </div>
+                                                            </div>
+                                                            <div class="single-product-info clearfix">
+                                                                <div class="pro-rating">  
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>  
+                                                                </div> 
+                                                                <div class="pro-price">
+                                                                    <span class="new-price">Rp 45.000</span>
+                                                                    <span class="old-price">Rp 50.000</span>
+                                                                </div> 
+                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="col-xs-3 col-width">  
+                                                    <div class="single-product">
+                                                        <div class="single-product-item clearfix">
+                                                            <div class="single-product-img clearfix">
+                                                                <a href="#">
+                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                </a>
+                                                                <div class="wish-icon-hover text-center clearfix">
+                                                                    <div class="hover-text">
+                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
+                                                                        </ul>
+                                                                    </div>    
+                                                                </div>
+                                                            </div>
+                                                            <div class="single-product-info clearfix">
+                                                                <div class="pro-rating">  
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>  
+                                                                </div> 
+                                                                <div class="pro-price">
+                                                                    <span class="new-price">Rp 45.000</span>
+                                                                    <span class="old-price">Rp 50.000</span>
+                                                                </div> 
+                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="col-xs-3 col-width">  
+                                                    <div class="single-product">
+                                                        <div class="single-product-item clearfix">
+                                                            <div class="single-product-img clearfix">
+                                                                <a href="#">
+                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                </a>
+                                                                <div class="wish-icon-hover text-center clearfix">
+                                                                    <div class="hover-text">
+                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
+                                                                        </ul>
+                                                                    </div>    
+                                                                </div>
+                                                            </div>
+                                                            <div class="single-product-info clearfix">
+                                                                <div class="pro-rating">  
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>  
+                                                                </div> 
+                                                                <div class="pro-price">
+                                                                    <span class="new-price">Rp 45.000</span>
+                                                                    <span class="old-price">Rp 50.000</span>
+                                                                </div> 
+                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="col-xs-3 col-width">  
+                                                    <div class="single-product">
+                                                        <div class="single-product-item clearfix">
+                                                            <div class="single-product-img clearfix">
+                                                                <a href="#">
+                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                </a>
+                                                                <div class="wish-icon-hover text-center clearfix">
+                                                                    <div class="hover-text">
+                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
+                                                                        </ul>
+                                                                    </div>    
+                                                                </div>
+                                                            </div>
+                                                            <div class="single-product-info clearfix">
+                                                                <div class="pro-rating">  
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>  
+                                                                </div> 
+                                                                <div class="pro-price">
+                                                                    <span class="new-price">Rp 45.000</span>
+                                                                    <span class="old-price">Rp 50.000</span>
+                                                                </div> 
+                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="col-xs-3 col-width">  
+                                                    <div class="single-product">
+                                                        <div class="single-product-item clearfix">
+                                                            <div class="single-product-img clearfix">
+                                                                <a href="#">
+                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                </a>
+                                                                <div class="wish-icon-hover text-center clearfix">
+                                                                    <div class="hover-text">
+                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
+                                                                        </ul>
+                                                                    </div>    
+                                                                </div>
+                                                            </div>
+                                                            <div class="single-product-info clearfix">
+                                                                <div class="pro-rating">  
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>  
+                                                                </div> 
+                                                                <div class="pro-price">
+                                                                    <span class="new-price">Rp 45.000</span>
+                                                                    <span class="old-price">Rp 50.000</span>
+                                                                </div> 
+                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="col-xs-3 col-width">  
+                                                    <div class="single-product">
+                                                        <div class="single-product-item clearfix">
+                                                            <div class="single-product-img clearfix">
+                                                                <a href="#">
+                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                </a>
+                                                                <div class="wish-icon-hover text-center clearfix">
+                                                                    <div class="hover-text">
+                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
+                                                                        </ul>
+                                                                    </div>    
+                                                                </div>
+                                                            </div>
+                                                            <div class="single-product-info clearfix">
+                                                                <div class="pro-rating">  
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>  
+                                                                </div> 
+                                                                <div class="pro-price">
+                                                                    <span class="new-price">Rp 45.000</span>
+                                                                    <span class="old-price">Rp 50.000</span>
+                                                                </div> 
+                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </tr>
+                                    </table>
+                                    <!-- <div class="tab-content row">
                                                 <div class="col-xs-3 col-width">  
                                                     <div class="single-product">
                                                         <div class="single-product-item clearfix">
@@ -237,15 +517,15 @@
                                                                     <i class="fa fa-star"></i>  
                                                                 </div> 
                                                                 <div class="pro-price">
-                                                                    <span class="new-price">$150</span>
-                                                                    <span class="old-price">$180</span>
+                                                                    <span class="new-price">Rp 45.000</span>
+                                                                    <span class="old-price">Rp 50.000</span>
                                                                 </div> 
-                                                                <h3><a href="#">Electria Ostma</a></h3>  
+                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>    
                                     </div>     
                                 </div>   

@@ -100,7 +100,6 @@
                 <ul class="nav" id="side-menu">
                     <li> <a href="/admin-book" class="waves-effect"><i  class="mdi mdi-book-multiple fa-fw"></i> <span class="hide-menu">Kelola Buku</span></a> </li>
                     <li> <a href="/admin-pembelian" class="waves-effect"><i  class="mdi mdi-shopping fa-fw"></i> <span class="hide-menu">Kelola Pembelian</span></a> </li>
-                    <li> <a href="/admin-pemesanan" class="waves-effect"><i  class="mdi mdi-clipboard-arrow-down fa-fw"></i> <span class="hide-menu">Kelola Pemesanan</span></a> </li>
                     <li> <a href="/admin-penjualan" class="waves-effect"><i  class="mdi mdi-elevation-rise fa-fw"></i> <span class="hide-menu">Kelola Penjualan</span></a> </li>                    <li class="devider"></li>
                     <li class="devider"></li>
                     <li><a href="/login" class="waves-effect"><i class="mdi mdi-logout fa-fw"></i> <span class="hide-menu">Log out</span></a></li>

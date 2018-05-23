@@ -57,7 +57,12 @@
                             </div> -->
                             <div class="form-group text-center m-t-20">
                                 <div class="col-xs-12">
-                                    <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Login</button>
+                                    <a href="/profile-pembeli" class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Login Pembeli</a>
+                                </div>
+                            </div>
+                            <div class="form-group text-center m-t-20">
+                                <div class="col-xs-12">
+                                    <a href="admin-pembelian" class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Login Admin</a>
                                 </div>
                             </div>
                             <div class="form-group m-b-0">

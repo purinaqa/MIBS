@@ -100,7 +100,6 @@
                 <ul class="nav" id="side-menu">
                     <li> <a href="/admin-book" class="waves-effect"><i  class="mdi mdi-book-multiple fa-fw"></i> <span class="hide-menu">Kelola Buku</span></a> </li>
                     <li> <a href="/admin-pembelian" class="waves-effect"><i  class="mdi mdi-shopping fa-fw"></i> <span class="hide-menu">Kelola Pembelian</span></a> </li>
-                    <li> <a href="/admin-pemesanan" class="waves-effect"><i  class="mdi mdi-clipboard-arrow-down fa-fw"></i> <span class="hide-menu">Kelola Pemesanan</span></a> </li>
                     <li> <a href="/admin-penjualan" class="waves-effect"><i  class="mdi mdi-elevation-rise fa-fw"></i> <span class="hide-menu">Kelola Penjualan</span></a> </li>                    <li class="devider"></li>
                     <li class="devider"></li>
                     <li><a href="/login" class="waves-effect"><i class="mdi mdi-logout fa-fw"></i> <span class="hide-menu">Log out</span></a></li>
@@ -146,90 +145,110 @@
                                             <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
                                         </div>
                                         <div class="col col-xs-6">
-                                            <button onclick="document.getElementById('id01').style.display='block'" style="width: 120px; background-color: #4db8ff; margin-top: 20px; height: 30px; margin-right: 30px; padding-top: 5px">Add Book</button>
+                                            <button data-toggle="modal" data-target="#add-book" style="width: 120px; background-color: #4db8ff; margin-top: 20px; height: 30px; margin-right: 30px; padding-top: 5px">Add Book</button>
                                         </div>
                                     </div>
                                 </div>
-                           </div>
+                            </div>
                             <div class="table-responsive">
                                 <table class="table table-hover manage-u-table">
                                     <thead>
                                         <tr>
                                             <th style="width: 70px;" class="text-center">#</th>
-                                            <th>KATEGORI BUKU</th>
-                                            <th>JUDUL BUKU</th>
-                                            <th>TAHUN TERBIT BUKU</th>
-                                            <th>NAMA PENGARANG</th>
-                                            <th>NAMA PENERBIT</th>
-                                            <th>STOK BUKU</th>
-                                            <th>MANAGE</th>
+                                            <th>Book ID</th>
+                                            <th>Book's Category</th>
+                                            <th>Book's Title</th>
+                                            <th>Author</th>
+                                            <th>Publisher</th>
+                                            <th>Stock</th>
+                                            <th>Manage</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td class="text-center">1</td>
-                                            <td><span class="font-medium">Daniel Kristeen</span>
-                                                <br/><span class="text-muted">Texas, Unitedd states</span></td>
-                                            <td>Visual Designer
-                                                <br/><span class="text-muted">Past : teacher</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>
-                                                <br/><span class="text-muted">999 - 444 - 555</span>
-                                            </td>
-                                            <td>
-                                                <br/><span class="text-muted">999 - 444 - 555</span>
-                                            </td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
+                                            <td><span class="font-medium">B001</span>
+                                                <br/><!-- <span class="text-muted">Texas, Unitedd states</span> --></td>
+                                            <td>Buku
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>Tuntunan Sholat Lengkap
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>Rezky Alamsyah
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>Gramedia
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>5
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
                                             <td>
                                                 <button type="button" class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="icon-trash"></i></button>
-                                                <button onclick="document.getElementById('id02').style.display='block'" class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="ti-pencil-alt" ></i></button>
+                                                <button data-toggle="modal" data-target="#id02" class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="ti-pencil-alt" ></i></button>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">2</td>
-                                            <td><span class="font-medium">Daniel Kristeen</span>
-                                                <br/><span class="text-muted">Texas, Unitedd states</span></td>
-                                            <td>Visual Designer
-                                                <br/><span class="text-muted">Past : teacher</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>
-                                                <br/><span class="text-muted">999 - 444 - 555</span>
-                                            </td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
+                                            <td><span class="font-medium">B002</span>
+                                                <br/><!-- <span class="text-muted">Texas, Unitedd states</span> --></td>
+                                            <td>Buku
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>Merajut Sayap Bidadari
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>Purina Qurota
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>Sinar Dunia
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>7
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
                                             <td>
                                                 <button type="button" class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="icon-trash"></i></button>
-                                                <button type="button" class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="ti-pencil-alt"></i></button>
+                                                <button data-toggle="modal" data-target="#id02"  class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="ti-pencil-alt" ></i></button>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="text-center">3</td>
-                                            <td><span class="font-medium">Daniel Kristeen</span>
-                                                <br/><span class="text-muted">Texas, Unitedd states</span></td>
-                                            <td>Visual Designer
-                                                <br/><span class="text-muted">Past : teacher</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
-                                            <td>
-                                                <br/><span class="text-muted">999 - 444 - 555</span>
-                                            </td>
-                                            <td>daniel@website.com
-                                                <br/><span class="text-muted">999 - 444 - 555</span></td>
+                                            <td><span class="font-medium">B003</span>
+                                                <br/><!-- <span class="text-muted">Texas, Unitedd states</span> --></td>
+                                            <td>Majalah
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>Taaruf halal
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>Nuzul Ristyantika
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>Sinar Dunia
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>3
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
                                             <td>
                                                 <button type="button" class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="icon-trash"></i></button>
-                                                <button type="button" class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="ti-pencil-alt"></i></button>
+                                                <button data-toggle="modal" data-target="#id02"  class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="ti-pencil-alt" ></i></button>
                                             </td>
                                         </tr>
+
+                                        <tr>
+                                            <td class="text-center">4</td>
+                                            <td><span class="font-medium">B004</span>
+                                                <br/><!-- <span class="text-muted">Texas, Unitedd states</span> --></td>
+                                            <td>Buku
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>Dia
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>Syavira Tiara
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>Gunung Agung
+                                                <br/><!-- <span class="text-muted">Past : teacher</span> --></td>
+                                            <td>2
+                                                <br/><!-- <span class="text-muted">999 - 444 - 555</span> --></td>
+                                            <td>
+                                                <button type="button" class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="icon-trash"></i></button>
+                                                <button data-toggle="modal" data-target="#id02"  class="btn btn-info btn-outline btn-circle btn-lg m-r-5"><i class="ti-pencil-alt" ></i></button>
+                                            </td>
+                                        </tr>
+                                        
                                     </tbody>
                                 </table>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -265,93 +284,132 @@
 
 
     <!---->
-    <div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="/action_page.php">
-    <div class="container">
-      <h1>Add Book</h1>
-      <p>Please fill in this form to create a book.</p>
-      <hr>
-      <label for="email"><b>Kategori Buku</b></label>
-      <input type="text" placeholder="Enter Book Category" name="email" required>
-      
-      <label for="email"><b>Judul Buku</b></label>
-      <input type="text" placeholder="Enter Book Name" name="email" required>
+    <div id="add-book" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="col-md-12 modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="myModalLabel">Add Book</h4> </div>
+                
+                    <div class="modal-body">
+                        <from class="form-horizontal form-material">
+                            <div class="form-group">
+                                <label for="email"><b>Book's Category</b></label>
+                                <input type="text" placeholder="Enter Book Category" name="email" required>
+                                  
+                                <label for="email"><b>Book's Title</b></label>
+                                <input type="text" placeholder="Enter Book Name" name="email" required>
 
-      <label for="email"><b>Tahun Terbit Buku</b></label>
-      <input type="text" placeholder="Enter Book Year" name="email" required>
+                                <label for="email"><b>Publication Year</b></label>
+                                <input type="text" placeholder="Enter Book Year" name="email" required>
 
-      <label for="email"><b>Nama Pengarang</b></label>
-      <input type="text" placeholder="Enter Author's Name" name="email" required>
+                                <label for="email"><b>Author</b></label>
+                                <input type="text" placeholder="Enter Author's Name" name="email" required>
 
-      <label for="email"><b>Nama Penerbit</b></label>
-      <input type="text" placeholder="Enter Publisher's Name" name="email" required>
+                                <label for="email"><b>Publisher</b></label>
+                                <input type="text" placeholder="Enter Publisher's Name" name="email" required>
 
-      <label for="email"><b>Stok Buku</b></label>
-      <input type="text" placeholder="Enter Stock" name="email" required>
-
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Save</button>
-      </div>
+                                <label for="email"><b>Stock</b></label>
+                                <input type="text" placeholder="Enter Stock" name="email" required>
+                                 <!--  <div class="col-md-12 m-b-20">
+                                      <input type="text" class="form-control" placeholder="Rincian Tugas"> </div>
+                                  <div class="col-md-12 m-b-20">
+                                      <input type="text" class="form-control" placeholder="Deskripsi"> </div> -->
+                            </div>
+                        </from>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-info waves-effect" data-dismiss="modal">Save</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            <!-- /.modal-content -->
+        </div>
+      <!-- /.modal-dialog -->
     </div>
-  </form>
-</div>
+     <div id="id02" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="col-md-12 modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="myModalLabel">Add Book</h4> </div>
+                
+                    <div class="modal-body">
+                        <from class="form-horizontal form-material">
+                            <div class="form-group">
+                                <label for="email"><b>Book's Category</b></label>
+                                <input type="text" placeholder="Muslimah" name="email" required>
+                                  
+                                <label for="email"><b>Book's Title</b></label>
+                                <input type="text" placeholder="Merajut Sayap Bidadari" name="email" required>
+
+                                <label for="email"><b>Publication Year</b></label>
+                                <input type="text" placeholder="2015" name="email" required>
+
+                                <label for="email"><b>Author</b></label>
+                                <input type="text" placeholder="Purina Qurota" name="email" required>
+
+                                <label for="email"><b>Publisher</b></label>
+                                <input type="text" placeholder="Sinar Dunia" name="email" required>
+
+                                <label for="email"><b>Stock</b></label>
+                                <input type="text" placeholder="5" name="email" required>
+                                 <!--  <div class="col-md-12 m-b-20">
+                                      <input type="text" class="form-control" placeholder="Rincian Tugas"> </div>
+                                  <div class="col-md-12 m-b-20">
+                                      <input type="text" class="form-control" placeholder="Deskripsi"> </div> -->
+                            </div>
+                        </from>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-info waves-effect" data-dismiss="modal">Save</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            <!-- /.modal-content -->
+        </div>
+      <!-- /.modal-dialog -->
+    </div>
 
 <script>
 // Get the modal
-var modal = document.getElementById('id01');
+    var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
     }
-}
-</script>
+    </script>
 
-<!---->
-    <div id="id02" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="/action_page.php">
-    <div class="container">
-      <h1>Add Book</h1>
-      <p>Please fill in this form to create a book.</p>
-      <hr>
-      <label for="email"><b>Kategori Buku</b></label>
-      <input type="text" placeholder="Muslimah" name="email" required>
-      
-      <label for="email"><b>Nama Buku</b></label>
-      <input type="text" placeholder="Merajut Sayap Bidadari" name="email" required>
+    <!---->
 
-      <label for="email"><b>Nama Pengarang</b></label>
-      <input type="text" placeholder="Purina Qurota" name="email" required>
+    <script>
+    // Get the modal
+        var modal = document.getElementById('id02');
 
-      <label for="email"><b>Nama Penerbit</b></label>
-      <input type="text" placeholder="Sinar Dunia" name="email" required>
-
-      <label for="email"><b>Stok Buku</b></label>
-      <input type="text" placeholder="20 Biji" name="email" required>
-
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Save</button>
-      </div>
-    </div>
-  </form>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('id02');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 
 </body>
 

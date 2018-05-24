@@ -220,7 +220,12 @@
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
-                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li>Title : Al-Qur'an Cordobatajwid Mudah Tartil A4</li>
+                                                                            <li>Author : Cordoba International</li>
+                                                                            <li>Publisher: Grasindo</li>
+                                                                            <li>Country: Indonesia</li>
+                                                                        </ul>
                                                                         <ul>
                                                                             <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
                                                                         </ul>
@@ -236,10 +241,10 @@
                                                                     <i class="fa fa-star"></i>  
                                                                 </div> 
                                                                 <div class="pro-price">
-                                                                    <span class="new-price">Rp 45.000</span>
-                                                                    <span class="old-price">Rp 50.000</span>
+                                                                    <span class="new-price">Rp 147.000</span>
+                                                                    <span class="old-price">Rp 189.000</span>
                                                                 </div> 
-                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                                <h3><a href="#">Al-Qur'an Cordobatajwid</a></h3>  
                                                             </div>
                                                         </div>
                                                     </div>
@@ -255,7 +260,12 @@
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
-                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li>Title : Permata Al-Qur'an</li>
+                                                                            <li>Author : Prof. Dr. H. Muhammad Chirzin</li>
+                                                                            <li>Publisher : Gramedia Pustaka Utama</li>
+                                                                            <li>Date : 22 Januari 2015</li>
+                                                                        </ul>
                                                                         <ul>
                                                                             <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
                                                                         </ul>
@@ -271,10 +281,10 @@
                                                                     <i class="fa fa-star"></i>  
                                                                 </div> 
                                                                 <div class="pro-price">
-                                                                    <span class="new-price">Rp 45.000</span>
-                                                                    <span class="old-price">Rp 50.000</span>
+                                                                    <span class="new-price">Rp 63.000</span>
+                                                                    <span class="old-price">Rp 69.000</span>
                                                                 </div> 
-                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                                <h3><a href="#">Permata Al-Qur'an</a></h3>  
                                                             </div>
                                                         </div>
                                                     </div>
@@ -290,7 +300,14 @@
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
-                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li>Title : Mukjizat Energi Tawakal</li>
+                                                                            <li>Author : Abdillah F Hasan</li>
+                                                                            <li>Publisher : Elex Media Komputindo</li>
+                                                                            <li>Year of Publication : Desember - 2014</li>
+                                                                            <li>Total Pages : 200 Pages</li>
+                                                                            <li>Country : Indonesia</li>
+                                                                        </ul>
                                                                         <ul>
                                                                             <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
                                                                         </ul>
@@ -306,10 +323,10 @@
                                                                     <i class="fa fa-star"></i>  
                                                                 </div> 
                                                                 <div class="pro-price">
-                                                                    <span class="new-price">Rp 45.000</span>
-                                                                    <span class="old-price">Rp 50.000</span>
+                                                                    <span class="new-price">Rp 36.000</span>
+                                                                    <span class="old-price">Rp 40.000</span>
                                                                 </div> 
-                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                                <h3><a href="#">Mukjizat Energi Tawakal</a></h3>  
                                                             </div>
                                                         </div>
                                                     </div>
@@ -325,7 +342,13 @@
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
-                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li>Title : I Am Sarahza</li>
+                                                                            <li>Publisher : Republika Penerbit</li>
+                                                                            <li>Author : Hanum Salsabiela Rais, Rangga Almahendra</li>
+                                                                            <li>Total Pages : 317 Pages</li>
+                                                                            <li>Color : Black - White</li>
+                                                                        </ul>
                                                                         <ul>
                                                                             <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
                                                                         </ul>
@@ -341,10 +364,10 @@
                                                                     <i class="fa fa-star"></i>  
                                                                 </div> 
                                                                 <div class="pro-price">
-                                                                    <span class="new-price">Rp 45.000</span>
-                                                                    <span class="old-price">Rp 50.000</span>
+                                                                    <span class="new-price">Rp 64.000</span>
+                                                                    <span class="old-price">Rp 75.000</span>
                                                                 </div> 
-                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                                <h3><a href="#">I Am Sarahza</a></h3>  
                                                             </div>
                                                         </div>
                                                     </div>
@@ -360,7 +383,14 @@
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
-                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li>Title : Bait Cinta Sang Musafir</li>
+                                                                            <li>Author : Andy Sukma Lubis</li>
+                                                                            <li>Publisher : Elex Media Komputindo</li>
+                                                                            <li>Date : May - 2015</li>
+                                                                            <li>Total Pages : 204 Pages</li>
+                                                                            <li>Country : Indonesia</li>
+                                                                        </ul>
                                                                         <ul>
                                                                             <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
                                                                         </ul>
@@ -376,10 +406,10 @@
                                                                     <i class="fa fa-star"></i>  
                                                                 </div> 
                                                                 <div class="pro-price">
-                                                                    <span class="new-price">Rp 45.000</span>
-                                                                    <span class="old-price">Rp 50.000</span>
+                                                                    <span class="new-price">Rp 36.000</span>
+                                                                    <span class="old-price">Rp 40.000</span>
                                                                 </div> 
-                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                                <h3><a href="#">Bait Cinta Sang Musafir</a></h3>  
                                                             </div>
                                                         </div>
                                                     </div>
@@ -395,8 +425,14 @@
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
-                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
                                                                         <ul>
+                                                                            <li>Title : Tafakur of Love</li>
+                                                                            <li>Author : Abu Nafies Al-Ghaazy</li>
+                                                                            <li>Publisher : Elex Media Komputindo</li>
+                                                                            <li>Date : August - 2015</li>
+                                                                            <li>Total Pages : 196 Pages</li>
+                                                                            <li>Country: Indonesia</li>
+                                                                        </ul>                                                                        <ul>
                                                                             <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
                                                                         </ul>
                                                                     </div>    
@@ -411,10 +447,10 @@
                                                                     <i class="fa fa-star"></i>  
                                                                 </div> 
                                                                 <div class="pro-price">
-                                                                    <span class="new-price">Rp 45.000</span>
+                                                                    <span class="new-price">Rp 44.000</span>
                                                                     <span class="old-price">Rp 50.000</span>
                                                                 </div> 
-                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                                <h3><a href="#">Tafakur of Love</a></h3>  
                                                             </div>
                                                         </div>
                                                     </div>
@@ -430,7 +466,13 @@
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
-                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li>Title : Menemukkan Soulmate Pilihan Allah</li>
+                                                                            <li>Publisher : Noura Books</li>
+                                                                            <li>Total Pages : 170 Pages</li>
+                                                                            <li>Cover : Soft</li>
+                                                                            <li>Country: Indonesia</li>
+                                                                        </ul>
                                                                         <ul>
                                                                             <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
                                                                         </ul>
@@ -446,10 +488,10 @@
                                                                     <i class="fa fa-star"></i>  
                                                                 </div> 
                                                                 <div class="pro-price">
-                                                                    <span class="new-price">Rp 45.000</span>
-                                                                    <span class="old-price">Rp 50.000</span>
+                                                                    <span class="new-price">Rp 38.000</span>
+                                                                    <span class="old-price">Rp 44.000</span>
                                                                 </div> 
-                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                                <h3><a href="#">Menemukkan Soulamate Pilihan Allah</a></h3>  
                                                             </div>
                                                         </div>
                                                     </div>
@@ -465,7 +507,12 @@
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
-                                                                        <p>Duis autem vel eum iriure dolor in hendrerit in tate velit esse lestiesequat  </p>
+                                                                        <ul>
+                                                                            <li>Title : Kujemput Engkau Di Sepertiga Malam</li>
+                                                                            <li>Author : Peggy Melati Sukma</li>
+                                                                            <li>Publisher : Penerbit Noura Books</li>
+                                                                            <li>Year of Publication : 2014</li>
+                                                                        </ul>
                                                                         <ul>
                                                                             <li><a class="modal-view" href="/detail"><i class="fa fa-eye"> Detail</i></a></li>
                                                                         </ul>
@@ -481,10 +528,10 @@
                                                                     <i class="fa fa-star"></i>  
                                                                 </div> 
                                                                 <div class="pro-price">
-                                                                    <span class="new-price">Rp 45.000</span>
-                                                                    <span class="old-price">Rp 50.000</span>
+                                                                    <span class="new-price">Rp 58.000</span>
+                                                                    <span class="old-price">Rp 68.000</span>
                                                                 </div> 
-                                                                <h3><a href="#">Tuntunan Sholat</a></h3>  
+                                                                <h3><a href="#">Kujemput Engkau Di Sepertiga Malam</a></h3>  
                                                             </div>
                                                         </div>
                                                     </div>

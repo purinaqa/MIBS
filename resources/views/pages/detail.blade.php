@@ -218,12 +218,17 @@
                             <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                                 <div class="product-detail">
                                     <div class="product-title">
-                                        <h2>((Judul Buku))</h2><br>
-                                        <h4>Rp. HargaBuku(ad)<del>HargaBuku(bd)</del></h4>
+                                        <h2>Permata Al-Qur'an</h2><br>
+                                        <h4>Rp. 63.000<del>Rp. 69.000</del></h4>
                                     </div>   
-                                    <h5>Available: <span> In Stock</span> </h5>
+                                    <h5>Available: <span> 10</span> </h5>
 
-                                    <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidt utore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris    nisi ut aliquip ex ea commodo consequa uis aute irure dolor in reprehenderit. </p>
+                                    <p class="detail"><ul>
+                                                                            <li>Title : Permata Al-Qur'an</li>
+                                                                            <li>Author : Prof. Dr. H. Muhammad Chirzin</li>
+                                                                            <li>Publisher : Gramedia Pustaka Utama</li>
+                                                                            <li>Date : 22 Januari 2015</li>
+                                                                        </ul></p>
                                     <div class="size-quantity clearfix">
                                         <div class="quick-add-to-cart">
                                         <form method="post" class="cart">
@@ -265,22 +270,26 @@
                                     </div>
                                     <div class="tab-content">
                                         <div role="tabpanel" class="tab-pane active" id="description">
-                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla patur. Excepteur sint occaecat cupidatat non proident reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                           <p>Al Qur'an adalah petunjuk Allah SWT bagi umat manusia, pembimbing kepada segala yang terbaik. Al-Qur'an membawa berita bahagia bagi orang yang beriman dan mengerjakan amal kebaikan, bahwa mereka akan mendapat pahala besar. Al-Qur'an membentangkan jalan kedamaian dan keselamatan; mengeluarkan manusia dari kegelapan kepada cahya. Bagian pertama buku ini menghidangkan Wawasan Al-Qur'an yang membahas penurunan latar belakang historis turunnya Al-Qur'an, Pembukaan surah-surah dalam Al-Qur'an, sumpah-sumpah, perumpamaan-perumpamaan dan kisah-kisah dalam Al-Qur'an. </p>
 
                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
                                         </div>
                                         <div role="tabpanel" class="tab-pane" id="specification">
                                             <div class="col-xs-12">
+                                                <div class="col-xs-3"><p><b>Title</b></p></div>
+                                                <div class="col-xs-9 text-left"><p>Permata Al-Qur'an</p></div>
+                                            </div>
+                                            <div class="col-xs-12">
                                                 <div class="col-xs-3"><p><b>Author</b></p></div>
-                                                <div class="col-xs-9 text-left"><p>Udin Syamsudin</p></div>
+                                                <div class="col-xs-9 text-left"><p>Prof. Dr. H. Muhammad Chirzin</p></div>
                                             </div>
                                             <div class="col-xs-12">
                                                 <div class="col-xs-3"><p><b>Publisher</b></p></div>
-                                                <div class="col-xs-9 text-left"><p>Pro Media</p></div>
+                                                <div class="col-xs-9 text-left"><p>Gramedia Pustaka Utama</p></div>
                                             </div>
                                             <div class="col-xs-12">
-                                                <div class="col-xs-3"><p><b>Year</b></p></div>
-                                                <div class="col-xs-9 text-left"><p>2017</p></div>
+                                                <div class="col-xs-3"><p><b>Date</b></p></div>
+                                                <div class="col-xs-9 text-left"><p>22 Januari 2015</p></div>
                                             </div>
                                         </div>
                                         <div role="tabpanel" class="tab-pane" id="review">

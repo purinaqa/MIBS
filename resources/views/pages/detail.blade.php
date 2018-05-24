@@ -293,11 +293,69 @@
                                             </div>
                                         </div>
                                         <div role="tabpanel" class="tab-pane" id="review">
-                                            <p>Similique animi consequatur pariatur voluptas tempore, dolores obcaecati dolorum quia odit harum. Quos nemo, minima totam quidem ipsum labore.</p>
-                                            <ul>
-                                                <li> <i class="fa fa-circle"></i> Minus placeat eligendi neque doloribus sed ratione repellendus a illo similique, sint quisquam perferendis eum nam nihil dolor fugit blanditiis, explicabo, recusandae hic qui exercitationem aspernatur excepturi voluptate unde. </li>
-                                                <li> <i class="fa fa-circle"></i> Quaerat magnam, perferendis, sapiente doloremque error omnis esse in saepe quos eveniet quasi ex fugit eligendi consectetur nobis amet. </li>
-                                            </ul>
+                                            <div class="com-md-8">
+                                                <h2>Review(s) about the book</h2>
+                                                <div class="amount-table table-responsive pt-20">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td height="95px">
+                                                                <div class="col-md-1 center">
+                                                                    <img src="/img/user.png" style="width:50px;height:50px">
+                                                                </div>
+                                                                <div class="col-md-7">
+                                                                    <p><span style="color:#f47142">Nuzul Maemunah,</span> Senin, 21 Mei 2018 14:25 WIB</p>
+                                                                    <p>"Bagus bukunya, ceritanya menarique"</p>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="95px">
+                                                                <div class="col-md-1 center">
+                                                                    <img src="/img/user.png" style="width:50px;height:50px">
+                                                                </div>
+                                                                <div class="col-md-7">
+                                                                    <p><span style="color:#f47142">Purincess,</span> Selasa, 22 Mei 2018 09:45 WIB</p>
+                                                                    <p>"Masya Allah, luar biasa, sungguh menggugah hati baca buku ini"</p>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="95px">
+                                                                <div class="col-md-1 center">
+                                                                    <img src="/img/user.png" style="width:50px;height:50px">
+                                                                </div>
+                                                                <div class="col-md-7">
+                                                                    <p><span style="color:#f47142">Umi Rakhma,</span> Selasa, 22 Mei 2018 19:10 WIB</p>
+                                                                    <p>"Menurut saya bukunya gak sebagus kata orang-orang ah, biasa aja"</p>
+                                                                </div>
+                                                            </td>
+                                                        </tr>                                           
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="container col-md-8">
+                                                <div class="row" style="margin-top:40px;">
+                                                    <div class="well well-sm">
+                                                        <div class="text-right">
+                                                            <a class="btn btn-success btn-green" href="#reviews-anchor" id="open-review-box">Leave a Review</a>
+                                                        </div>
+                                                    
+                                                        <div class="row" id="post-review-box" style="display:none; margin:5px;">
+                                                            <form accept-charset="UTF-8">
+                                                                <input id="ratings-hidden" name="rating" type="hidden">
+                                                                <textarea class="form-control animated" cols="50" id="new-review" name="comment" placeholder="Enter your review here..." rows="5"></textarea>
+                                                                <div class="col-md-6 text-right pt-10">
+                                                                    <div class="stars starrr" data-rating="0"></div>
+                                                                 </div>
+                                                                <div class="c0l-md-6 pt-10">
+                                                                    <button class="btn btn-success btn-sm" type="submit">Give Feedback</button>
+                                                                </div> 
+                                                            </form>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -585,5 +643,6 @@
 		<!-- main JS
 		============================================ -->	
         <script src="{{asset('/js/main.js')}}"></script>
+        <script src="{{asset('/js/buatan.js')}}"></script>
     </body>
 </html>

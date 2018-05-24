@@ -33,8 +33,8 @@ class TransaksiTable extends Migration
 
             $table->timestamps();
 
-            $table->foreign('id_pengguna')->references('id')->on('pengguna');
-            $table->foreign('id_buku')->references('id')->on('buku');
+            // $table->foreign('id_pengguna')->references('id')->on('pengguna');
+            // $table->foreign('id_buku')->references('id')->on('buku');
     });
     }
 

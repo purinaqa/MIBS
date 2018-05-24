@@ -266,16 +266,16 @@
                                         <table>
                                             <tbody>
                                                 <tr class="s-total">
-                                                    <td>Name<span>Purina Q.A</span></td>
+                                                    <td>Name<span>NahdaFA</span></td>
                                                 </tr>
                                                 <tr class="s-total">
-                                                    <td>Phone Number<span>085248464089</span></td>
+                                                    <td>Phone Number<span>081211540871</span></td>
                                                 </tr>   
                                                 <tr class="s-total">
-                                                    <td>Email Address<span>purinaqa@gmail.com</span></td>
+                                                    <td>Email Address<span>purinnahdafauziyah@gmail</span></td>
                                                 </tr>                                         
                                                 <tr class="s-total">
-                                                    <td>Address <span>Keputih Gang IC No 15, Sukolilo, Surabaya, 60111</span></td>
+                                                    <td>Address <span>Jalan Mulyosari satu no. 5, Mulyorejo, Surabaya, Jawa Timur</span></td>
                                                 </tr>
                                             </tbody>
                                         </table>

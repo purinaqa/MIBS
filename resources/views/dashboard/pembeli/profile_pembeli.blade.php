@@ -313,26 +313,26 @@
                                 </div>
 
                                <div class="tab-pane" id="comment">   
-                                    <div id="isipesan">
-                                        <div class="message-left">
+                                    <div class="isipesan">
+                                        <div class="message-left" style="display: block;">
                                             <p>Admin</p>
-                                            <p>Min, kunci jadwalnya di Alpro?</p>
+                                            <p>barangnya sudah sampai sis...</p>
                                             <span class="time-left">11:00</span>
                                         </div>
                                         <br>
-                                        <div class="message-right">
+                                        <div class="message-right" style="display: block;">
                                             <p>Nahda</p>
-                                            <p>Iya minn</p>
+                                            <p>Iya minn. Barang sudah ditangan</p>
                                             <span class="time-right">11:01</span>
                                         </div>
                                         <br>
-                                        <div class="message-left">
+                                        <div class="message-left" style="display: block;">
                                             <p>Admin</p>
-                                            <p>Okk, makasih min</p>
+                                            <p>Okk, makasih sis</p>
                                             <span class="time-left">11:02</span>
                                         </div>
                                         <br>
-                                        <div class="message-right">
+                                        <div class="message-right" style="display: block;">
                                             <p>Nahda</p>
                                             <p>Sama-samaa</p>
                                             <span class="time-right">11:05</span>
@@ -363,15 +363,15 @@
                                             </div>
                                         </div>  --> 
                                         <br>
-                                        <div class="row">
+                                    </div>  
+                                    <div class="row">
                                             <span class="col-md-10">
-                                              <input type="text" class="form-control" id="inputpesan" placeholder="tulis pesan..">
+                                              <input type="text" class="form-control" id="inputpesan" placeholder="tulis pesan.." onkeyup="getNewComment()">
                                             </span>
                                             <span class="col-md-2">
-                                                <button class="btn btn-info" id="submit">Kirim</button>
+                                                <button class="btn btn-info" id="submit" onclick="postNewComment()">Kirim</button>
                                             </span>
-                                        </div>
-                                    </div>                   
+                                    </div>                 
                                     
                                 </div>
                                 <div class="tab-pane" id="messages">
@@ -553,6 +553,28 @@
         <!-- End Page Content -->
         <!-- ============================================================== -->
     </div>
+
+    <script type="text/javascript">
+            function getNewComment() {     
+              newCaption = document.getElementById('inputpesan').value;
+              console.log(newCaption);     
+            }
+
+            function postNewComment() {
+              var commentList, count;
+              commentList = document.getElementsByClassName('isipesan')[0].innerHTML;
+              console.log(commentList);
+              commentList = commentList.concat('<div><p>Admin</p><p>').concat(newCaption).concat('</p><span class="time-left">11:00</span></div>');
+              document.getElementsByClassName('isipesan')[0].innerHTML = commentList;
+              newCaption = '';
+              document.getElementById('inputpesan').value = '';
+
+              count = Number(document.getElementById('count-2').innerText);
+              console.log(count);
+              count = count + 1;        
+              document.getElementById('count-2').innerHTML = '<i class="ion-chatbubble" id="comment-count"></i>' + count.toString();
+            }
+    </script>
     <!-- /#wrapper -->
     <!-- jQuery -->
     <script src="{{asset('plugins/bower_components/jquery/dist/jquery.min.js')}}"></script>

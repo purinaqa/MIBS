@@ -210,7 +210,7 @@
                                 <div class="zoomWrapper clearfix">
                                     <div id="img-1" class="zoomWrapper single-zoom pull-right">
                                         <a href="#">
-                                            <img id="zoom1" src="img/shop/big1.jpg" data-zoom-image="img/shop/big1.jpg" alt="big-1">
+                                            <img id="zoom1" src="img/product/Picture2.png" data-zoom-image="img/shop/big1.jpg" alt="big-1">
                                         </a>
                                     </div>
                                 </div>
@@ -297,8 +297,8 @@
                                                 <h2>Review(s) about the book</h2>
                                                 <div class="amount-table table-responsive pt-20">
                                                 <table>
-                                                    <tbody>
-                                                        <tr>
+                                                    <tbody class="comment">
+                                                        <tr id="comment-1" style="display: block">
                                                             <td height="95px">
                                                                 <div class="col-md-1 center">
                                                                     <img src="/img/user.png" style="width:50px;height:50px">
@@ -309,7 +309,7 @@
                                                                 </div>
                                                             </td>
                                                         </tr>
-                                                        <tr>
+                                                        <tr id="comment-2" style="display: block;">
                                                             <td height="95px">
                                                                 <div class="col-md-1 center">
                                                                     <img src="/img/user.png" style="width:50px;height:50px">
@@ -320,7 +320,7 @@
                                                                 </div>
                                                             </td>
                                                         </tr>
-                                                        <tr>
+                                                        <tr id="comment-3" style="display: block;">
                                                             <td height="95px">
                                                                 <div class="col-md-1 center">
                                                                     <img src="/img/user.png" style="width:50px;height:50px">
@@ -344,12 +344,12 @@
                                                         <div class="row" id="post-review-box" style="display:none; margin:5px;">
                                                             <form accept-charset="UTF-8">
                                                                 <input id="ratings-hidden" name="rating" type="hidden">
-                                                                <textarea class="form-control animated" cols="50" id="new-review" name="comment" placeholder="Enter your review here..." rows="5"></textarea>
+                                                                <textarea class="form-control animated" cols="50" id="new-review" name="comment" placeholder="Enter your review here..." rows="5" onkeyup="getNewComment()"></textarea>
                                                                 <div class="col-md-6 text-right pt-10">
                                                                     <div class="stars starrr" data-rating="0"></div>
                                                                  </div>
                                                                 <div class="c0l-md-6 pt-10">
-                                                                    <button class="btn btn-success btn-sm" type="submit">Give Feedback</button>
+                                                                    <button class="btn btn-success btn-sm" type="submit" onclick="postNewComment()">Give Feedback</button>
                                                                 </div> 
                                                             </form>
                                                         </div>
@@ -589,6 +589,27 @@
         </div>
         <!-- END QUICKVIEW PRODUCT -->
         
+        <script type="text/javascript">
+            function getNewComment() {     
+              newCaption = document.getElementById('new-review').value;
+              console.log(newCaption);     
+            }
+
+            function postNewComment() {
+              var commentList, count;
+              commentList = document.getElementsByClassName('comment')[0].innerHTML;
+              console.log(commentList);
+              commentList = commentList.concat('<tr><td height="95px"><div class="col-md-1 center"><img src="/img/user.png" style="width:50px;height:50px"></div><div class="col-md-7"><p><span style="color:#f47142">NahdaFA</span> Senin, 21 Mei 2018 14:25 WIB</p><p>').concat(newCaption).concat('</p></div></td></tr>');
+              document.getElementsByClassName('comment')[0].innerHTML = commentList;
+              newCaption = '';
+              document.getElementById('new-review').value = '';
+
+              count = Number(document.getElementById('count-2').innerText);
+              console.log(count);
+              count = count + 1;        
+              document.getElementById('count-2').innerHTML = '<i class="ion-chatbubble" id="comment-count"></i>' + count.toString();
+            }
+        </script>
        	
        	<!-- jquery
 		============================================ -->		

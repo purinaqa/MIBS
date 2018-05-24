@@ -216,7 +216,7 @@
                                                         <div class="single-product-item clearfix">
                                                             <div class="single-product-img clearfix">
                                                                 <a href="#">
-                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                    <img class="primary-image" src="img/product/Picture1.png" width="100%" alt="product">
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
@@ -256,7 +256,7 @@
                                                         <div class="single-product-item clearfix">
                                                             <div class="single-product-img clearfix">
                                                                 <a href="#">
-                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                    <img class="primary-image" src="img/product/Picture2.png" width="100%" alt="product">
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
@@ -296,7 +296,7 @@
                                                         <div class="single-product-item clearfix">
                                                             <div class="single-product-img clearfix">
                                                                 <a href="#">
-                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                    <img class="primary-image" src="img/product/Picture3.png" width="100%" alt="product">
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
@@ -338,7 +338,7 @@
                                                         <div class="single-product-item clearfix">
                                                             <div class="single-product-img clearfix">
                                                                 <a href="#">
-                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                    <img class="primary-image" src="img/product/Picture4.png" width="100%" alt="product">
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
@@ -379,7 +379,7 @@
                                                         <div class="single-product-item clearfix">
                                                             <div class="single-product-img clearfix">
                                                                 <a href="#">
-                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                    <img class="primary-image" src="img/product/Picture5.png" width="100%" alt="product">
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
@@ -421,7 +421,7 @@
                                                         <div class="single-product-item clearfix">
                                                             <div class="single-product-img clearfix">
                                                                 <a href="#">
-                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                    <img class="primary-image" src="img/product/Picture6.png" width="100%" alt="product">
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
@@ -462,7 +462,7 @@
                                                         <div class="single-product-item clearfix">
                                                             <div class="single-product-img clearfix">
                                                                 <a href="#">
-                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                    <img class="primary-image" src="img/product/Picture7.png" width="100%" alt="product">
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">
@@ -503,7 +503,7 @@
                                                         <div class="single-product-item clearfix">
                                                             <div class="single-product-img clearfix">
                                                                 <a href="#">
-                                                                    <img class="primary-image" src="img/product/1.jpg" width="100%" alt="product">
+                                                                    <img class="primary-image" src="img/product/Picture8.png" width="100%" alt="product">
                                                                 </a>
                                                                 <div class="wish-icon-hover text-center clearfix">
                                                                     <div class="hover-text">

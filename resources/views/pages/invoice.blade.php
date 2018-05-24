@@ -118,34 +118,7 @@
                                </div>
                                <div class="col-md-6">
                                     <div class="top-right">
-                                        <div class="top-login-cart">
-                                            <ul>
-                                                <li><a href="/cart"><img src="img/icon/cart_red.png" alt="cart">Cart (1)</a>
-                                                    <ul class="submenu-mainmenu">
-                                                        <!-- foreach buat cart -->
-                                                        <li class="single-cart-item clearfix">
-                                                            <span class="cart-img">
-                                                                <a href="#"><img src="img/product/Picture2.png" style="weight:50px;height:59px" alt=""></a>
-                                                            </span>
-                                                            <span class="cart-info">
-                                                                <a href="#">Permata Al-Qur'an</a>
-                                                                <span>Rp. 63.000 x 3</span>
-                                                            </span>
-                                                            <span class="trash-cart">
-                                                                <a href="#"><i class="fa fa-trash-o"></i></a>
-                                                            </span>    
-                                                        </li>
-                                                        <li>
-                                                            <span class="sub-total-cart text-center">
-                                                                Sub Total <span>Rp. 189.000</span>
-                                                                <a href="/cart" class="view-cart active">View Cart</a>
-                                                                <a href="checkout" class="view-cart">Checkout</a>
-                                                            </span>
-                                                        </li>    
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                       
                                    </div>    
                                </div>
                             </div>

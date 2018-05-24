@@ -115,38 +115,36 @@
                                             <li class=" hidden-xs"><a href="/">Contact</a></li>
                                         </ul>
                                     </div>
-                               </div>
-                               <div class="col-md-6">
-                                    <div class="top-right">
-                                        <div class="top-login-cart">
-                                            <ul>
-                                                <li><a href="cart"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
-                                                    <ul class="submenu-mainmenu">
-                                                        <!-- foreach buat cart -->
-                                                        <li class="single-cart-item clearfix">
-                                                            <span class="cart-img">
-                                                                <a href="#"><img src="img/cart/1.jpg" alt=""></a>
-                                                            </span>
-                                                            <span class="cart-info">
-                                                                <a href="#">Eletria ostma</a>
-                                                                <span>$150 x 2</span>
-                                                            </span>
-                                                            <span class="trash-cart">
-                                                                <a href="#"><i class="fa fa-trash-o"></i></a>
-                                                            </span>    
-                                                        </li>
-                                                        <li>
-                                                            <span class="sub-total-cart text-center">
-                                                                Sub Total <span>$620</span>
-                                                                <a href="cart" class="view-cart active">View Cart</a>
-                                                                <a href="checkout" class="view-cart">Checkout</a>
-                                                            </span>
-                                                        </li>    
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                   </div>    
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="top-login-cart">
+                                        <ul>
+                                            <li><a href="cart"><img src="img/icon/cart_red.png" alt="cart">Cart</a>
+                                                <ul class="submenu-mainmenu">
+                                                    <!-- foreach buat cart -->
+                                                    <li class="single-cart-item clearfix">
+                                                        <span class="cart-img">
+                                                            <a href="#"><img src="img/icon/cart_red.png" alt=""></a>
+                                                        </span>
+                                                        <span class="cart-info">
+                                                            <a href="#">-</a>
+                                                            <span>Rp. 0</span>
+                                                        </span>
+                                                        <span class="trash-cart">
+                                                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                                                        </span>    
+                                                    </li>
+                                                    <li>
+                                                        <span class="sub-total-cart text-center">
+                                                            Sub Total <span>Rp. 0</span>
+                                                            <a href="cart" class="view-cart active">View Cart</a>
+                                                            <a href="checkout" class="view-cart">Checkout</a>
+                                                        </span>
+                                                    </li>    
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>    
                                </div>
                             </div>
                         </div>   
@@ -271,8 +269,6 @@
                                     <div class="tab-content">
                                         <div role="tabpanel" class="tab-pane active" id="description">
                                            <p>Al Qur'an adalah petunjuk Allah SWT bagi umat manusia, pembimbing kepada segala yang terbaik. Al-Qur'an membawa berita bahagia bagi orang yang beriman dan mengerjakan amal kebaikan, bahwa mereka akan mendapat pahala besar. Al-Qur'an membentangkan jalan kedamaian dan keselamatan; mengeluarkan manusia dari kegelapan kepada cahya. Bagian pertama buku ini menghidangkan Wawasan Al-Qur'an yang membahas penurunan latar belakang historis turunnya Al-Qur'an, Pembukaan surah-surah dalam Al-Qur'an, sumpah-sumpah, perumpamaan-perumpamaan dan kisah-kisah dalam Al-Qur'an. </p>
-
-                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
                                         </div>
                                         <div role="tabpanel" class="tab-pane" id="specification">
                                             <div class="col-xs-12">

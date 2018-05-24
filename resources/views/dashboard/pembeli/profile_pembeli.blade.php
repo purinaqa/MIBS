@@ -314,34 +314,34 @@
 
                                <div class="tab-pane" id="comment">   
                                     <div class="isipesan">
-                                        <div class="message-left" style="display: block;">
+                                        <div class="message-right" style="display: block;">
                                             <p>Admin</p>
                                             <p>barangnya sudah sampai sis...</p>
-                                            <span class="time-left">11:00</span>
-                                        </div>
-                                        <br>
-                                        <div class="message-right" style="display: block;">
-                                            <p>Nahda</p>
-                                            <p>Iya minn. Barang sudah ditangan</p>
-                                            <span class="time-right">11:01</span>
+                                            <span class="time-right">11:00</span>
                                         </div>
                                         <br>
                                         <div class="message-left" style="display: block;">
-                                            <p>Admin</p>
-                                            <p>Okk, makasih sis</p>
-                                            <span class="time-left">11:02</span>
+                                            <p>Nahda</p>
+                                            <p>Iya minn. Barang sudah ditangan</p>
+                                            <span class="time-left">11:01</span>
                                         </div>
                                         <br>
                                         <div class="message-right" style="display: block;">
+                                            <p>Admin</p>
+                                            <p>Okk, makasih sis</p>
+                                            <span class="time-right">11:02</span>
+                                        </div>
+                                        <br>
+                                        <div class="message-left" style="display: block;">
                                             <p>Nahda</p>
                                             <p>Sama-samaa</p>
-                                            <span class="time-right">11:05</span>
+                                            <span class="time-left">11:05</span>
                                         </div>
                                         <!-- <div id="isipesan">
                                             <div class="container">
                                               <p>Admin</p>
                                               <p>Min, kunci jadwalnya di Alpro?</p>
-                                              <span class="time-left">11:00</span>
+                                              <span class="time-right">11:00</span>
                                             </div>
 
                                             <div class="container-darker">
@@ -564,7 +564,7 @@
               var commentList, count;
               commentList = document.getElementsByClassName('isipesan')[0].innerHTML;
               console.log(commentList);
-              commentList = commentList.concat('<div><p>Admin</p><p>').concat(newCaption).concat('</p><span class="time-left">11:00</span></div>');
+              commentList = commentList.concat('<div><p>Nahda</p><p>').concat(newCaption).concat('</p><span class="time-left">11:00</span></div>');
               document.getElementsByClassName('isipesan')[0].innerHTML = commentList;
               newCaption = '';
               document.getElementById('inputpesan').value = '';

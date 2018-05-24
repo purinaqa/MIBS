@@ -120,16 +120,16 @@
                                     <div class="top-right">
                                         <div class="top-login-cart">
                                             <ul>
-                                                <li><a href="/cart"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
+                                                <li><a href="/cart"><img src="img/icon/cart_red.png" alt="cart">Cart (1)</a>
                                                     <ul class="submenu-mainmenu">
                                                         <!-- foreach buat cart -->
                                                         <li class="single-cart-item clearfix">
                                                             <span class="cart-img">
-                                                                <a href="#"><img src="img/cart/1.jpg" alt=""></a>
+                                                                <a href="#"><img src="img/product/Picture2.png" style="weight:50px;height:59px" alt=""></a>
                                                             </span>
                                                             <span class="cart-info">
-                                                                <a href="#">Eletria ostma</a>
-                                                                <span>$150 x 2</span>
+                                                                <a href="#">Permata Al-Qur'an</a>
+                                                                <span>Rp. 63.000 x 3</span>
                                                             </span>
                                                             <span class="trash-cart">
                                                                 <a href="#"><i class="fa fa-trash-o"></i></a>
@@ -137,7 +137,7 @@
                                                         </li>
                                                         <li>
                                                             <span class="sub-total-cart text-center">
-                                                                Sub Total <span>$620</span>
+                                                                Sub Total <span>Rp. 189.000</span>
                                                                 <a href="/cart" class="view-cart active">View Cart</a>
                                                                 <a href="checkout" class="view-cart">Checkout</a>
                                                             </span>
@@ -184,14 +184,13 @@
                                                 <tr>
                                                     <td class="p-name text-left">
                                                         <div class="cart-img">
-                                                            <a href="#"><img src="img/cart/4.jpg" alt=""></a>
+                                                            <a href="#"><img src="img/product/Picture2.png" style="weight:126px;height:135px" alt=""></a>
                                                         </div>    
-                                                        <a href="#">Imaontria jastma</a>
-                                                        <p>Lorem ipsum dolor sit <span>amet, consectetur</span></p>
+                                                        <a href="#">Permata Al-Qur'an</a>
                                                     </td>
-                                                    <td class="p-amount"><span class="amount">Rp. 76.000</span></td>
-                                                    <td class="p-quantity"><input type="text" value="1"></td>
-                                                    <td class="p-total">Rp. 76.000 <a href="#"><i class="fa fa-trash"></i></a></td>
+                                                    <td class="p-amount"><span class="amount">Rp. 63.000</span></td>
+                                                    <td class="p-quantity"><input type="text" value="3"></td>
+                                                    <td class="p-total">Rp. 189.000 <a href="#"><i class="fa fa-trash"></i></a></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -231,13 +230,13 @@
                                         <table>
                                             <tbody>
                                                 <tr class="s-total">
-                                                    <td>Sub Total <span>Rp. 76.000</span></td>
+                                                    <td>Sub Total <span>Rp. 189.000</span></td>
                                                 </tr>
                                                 <tr class="s-total">
                                                     <td>Shipping <span>Rp 0</span></td>
                                                 </tr>
                                                 <tr class="g-total">
-                                                    <td>Grand Total<span class="grand">Rp. 76.000</span></td>
+                                                    <td>Grand Total<span class="grand">Rp. 189.000</span></td>
                                                 </tr>                                           
                                             </tbody>
                                         </table>

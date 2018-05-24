@@ -120,16 +120,16 @@
                                     <div class="top-right">
                                         <div class="top-login-cart">
                                             <ul>
-                                                <li><a href="cart"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
+                                                <li><a href="cart"><img src="img/icon/cart_red.png" alt="cart">Cart</a>
                                                     <ul class="submenu-mainmenu">
                                                         <!-- foreach buat cart -->
                                                         <li class="single-cart-item clearfix">
                                                             <span class="cart-img">
-                                                                <a href="#"><img src="img/cart/1.jpg" alt=""></a>
+                                                                <a href="#"><img src="img/icon/cart_red.png" alt=""></a>
                                                             </span>
                                                             <span class="cart-info">
-                                                                <a href="#">Eletria ostma</a>
-                                                                <span>$150 x 2</span>
+                                                                <a href="#">-</a>
+                                                                <span>Rp. 0</span>
                                                             </span>
                                                             <span class="trash-cart">
                                                                 <a href="#"><i class="fa fa-trash-o"></i></a>
@@ -137,7 +137,7 @@
                                                         </li>
                                                         <li>
                                                             <span class="sub-total-cart text-center">
-                                                                Sub Total <span>$620</span>
+                                                                Sub Total <span>Rp. 0</span>
                                                                 <a href="cart" class="view-cart active">View Cart</a>
                                                                 <a href="checkout" class="view-cart">Checkout</a>
                                                             </span>

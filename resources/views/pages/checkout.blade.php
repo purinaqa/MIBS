@@ -120,16 +120,16 @@
                                     <div class="top-right">
                                         <div class="top-login-cart">
                                             <ul>
-                                                <li><a href="/cart"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
+                                                <li><a href="/cart"><img src="img/icon/cart_red.png" alt="cart">Cart (1)</a>
                                                     <ul class="submenu-mainmenu">
                                                         <!-- foreach buat cart -->
                                                         <li class="single-cart-item clearfix">
                                                             <span class="cart-img">
-                                                                <a href="#"><img src="img/cart/1.jpg" alt=""></a>
+                                                                <a href="#"><img src="img/product/Picture2.png" style="weight:50px;height:59px" alt=""></a>
                                                             </span>
                                                             <span class="cart-info">
-                                                                <a href="#">Eletria ostma</a>
-                                                                <span>$150 x 2</span>
+                                                                <a href="#">Permata Al-Qur'an</a>
+                                                                <span>Rp. 63.000 x 3</span>
                                                             </span>
                                                             <span class="trash-cart">
                                                                 <a href="#"><i class="fa fa-trash-o"></i></a>
@@ -137,7 +137,7 @@
                                                         </li>
                                                         <li>
                                                             <span class="sub-total-cart text-center">
-                                                                Sub Total <span>$620</span>
+                                                                Sub Total <span>Rp. 189.000</span>
                                                                 <a href="/cart" class="view-cart active">View Cart</a>
                                                                 <a href="checkout" class="view-cart">Checkout</a>
                                                             </span>
@@ -220,18 +220,16 @@
                                             <ul>
                                                 <li>
                                                     <h5 class="focus">Product <span>Total</span></h5>
-                                                    <p>Eletria ostma    <span> x  02</span><span>$300.00</span></p>
-                                                    <p>Celletria ostma  <span> x  01</span><span>$120.00</span></p>
-                                                    <p>Pelletria ostma  <span> x  02</span><span>$200.00</span></p>
+                                                    <p>Permata Al-Qur'an<span> x  3</span><span>Rp. 63.000</span></p>
                                                 </li>
                                                 <li>
-                                                    <h5>Sub total <span>$620.00</span></h5>
+                                                    <h5>Sub total <span>Rp. 189.000</span></h5>
                                                 </li>
                                                 <li>
-                                                    <h5>Shipping <span>$0.00</span></h5>
+                                                    <h5>Shipping <span>Rp. 0</span></h5>
                                                 </li>
                                                 <li class="order-total-purple">
-                                                    <h5 class="focus">Grand Total <span>$620.00</span></h5>
+                                                    <h5 class="focus">Grand Total <span>Rp. 189.000</span></h5>
                                                 </li>
                                             </ul>
                                         </div>

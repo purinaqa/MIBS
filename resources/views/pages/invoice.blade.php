@@ -120,16 +120,16 @@
                                     <div class="top-right">
                                         <div class="top-login-cart">
                                             <ul>
-                                                <li><a href="/cart"><img src="img/icon/cart_red.png" alt="cart">Cart (3)</a>
+                                                <li><a href="/cart"><img src="img/icon/cart_red.png" alt="cart">Cart (1)</a>
                                                     <ul class="submenu-mainmenu">
                                                         <!-- foreach buat cart -->
                                                         <li class="single-cart-item clearfix">
                                                             <span class="cart-img">
-                                                                <a href="#"><img src="img/cart/1.jpg" alt=""></a>
+                                                                <a href="#"><img src="img/product/Picture2.png" style="weight:50px;height:59px" alt=""></a>
                                                             </span>
                                                             <span class="cart-info">
-                                                                <a href="#">Eletria ostma</a>
-                                                                <span>$150 x 2</span>
+                                                                <a href="#">Permata Al-Qur'an</a>
+                                                                <span>Rp. 63.000 x 3</span>
                                                             </span>
                                                             <span class="trash-cart">
                                                                 <a href="#"><i class="fa fa-trash-o"></i></a>
@@ -137,7 +137,7 @@
                                                         </li>
                                                         <li>
                                                             <span class="sub-total-cart text-center">
-                                                                Sub Total <span>$620</span>
+                                                                Sub Total <span>Rp. 189.000</span>
                                                                 <a href="/cart" class="view-cart active">View Cart</a>
                                                                 <a href="checkout" class="view-cart">Checkout</a>
                                                             </span>
@@ -192,6 +192,31 @@
                             </div>
                         </div>
                         <div class="row pt-30">
+                            <div class="col-md-12 pt-10">
+                                <div class="section-title">
+                                        <h4 class="text-uppercase pb-15">Payment Method</h4>
+                                    </div>
+                                <div class="amount-table table-responsive">
+                                    <table>
+                                        <tbody>
+                                            <tr class="s-total">
+                                                <td>Don't forget to finish your payment before: <span>Friday, 17th May 2018 23:59 WIB</span></td>
+                                            </tr>
+                                            <tr class="s-total">
+                                                <td>And transfer to: <span>BANK BNI 123456234 (MIBS JMMI)</span></td>
+                                            </tr>
+                                            <tr class="s-total">
+                                                <td>Use your references key: <span>nj3en3d8ofhsnh38</span></td>
+                                            </tr>
+                                            <tr class="s-total text-center">
+                                                <td>Upload your Transfer Receipt in your dashboard</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-30">
                             <div class="col-xs-12">
                                 <form action="#">
                                     <div class="cart-table table-responsive">
@@ -208,14 +233,13 @@
                                                 <tr>
                                                     <td class="p-name text-left">
                                                         <div class="cart-img">
-                                                            <a href="#"><img src="img/cart/4.jpg" alt=""></a>
+                                                            <a href="#"><img src="img/product/Picture2.png" style="weight:126px;height:145px" alt=""></a>
                                                         </div>    
-                                                        <a href="#">Imaontria jastma</a>
-                                                        <p>Lorem ipsum dolor sit <span>amet, consectetur</span></p>
+                                                        <a href="#">Permata Al-Qur'an</a>
                                                     </td>
-                                                    <td class="p-amount"><span class="amount">Rp. 76.000</span></td>
+                                                    <td class="p-amount"><span class="amount">Rp. 63.000</span></td>
                                                     <td class="p-quantity">1</td>
-                                                    <td class="p-amount"><span class="amount">Rp. 76.000</td>
+                                                    <td class="p-amount"><span class="amount">Rp. 189.000</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="p-name text-left">   
@@ -267,42 +291,17 @@
                                         <table>
                                             <tbody>
                                                 <tr class="s-total">
-                                                    <td>Sub Total <span>Rp. 76.000</span></td>
+                                                    <td>Sub Total <span>Rp. 189.000</span></td>
                                                 </tr>
                                                 <tr class="s-total">
                                                     <td>Shipping <span>Rp 0</span></td>
                                                 </tr>
                                                 <tr class="g-total">
-                                                    <td>Grand Total<span class="grand">Rp. 76.000</span></td>
+                                                    <td>Grand Total<span class="grand">Rp. 189.000</span></td>
                                                 </tr>                                           
                                             </tbody>
                                         </table>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row pt-30">
-                            <div class="col-md-12 pt-10">
-                                <div class="section-title">
-                                        <h4 class="text-uppercase pb-15">Payment Method</h4>
-                                    </div>
-                                <div class="amount-table table-responsive">
-                                    <table>
-                                        <tbody>
-                                            <tr class="s-total">
-                                                <td>Don't forget to finish your payment before: <span>Friday, 17th May 2018 23:59 WIB</span></td>
-                                            </tr>
-                                            <tr class="s-total">
-                                                <td>And transfer to: <span>BANK BNI 123456234 (MIBS JMMI)</span></td>
-                                            </tr>
-                                            <tr class="s-total">
-                                                <td>Use your references key: <span>nj3en3d8ofhsnh38</span></td>
-                                            </tr>
-                                            <tr class="s-total text-center">
-                                                <td>Upload your Transfer Receipt in your dashboard</span></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
                                 </div>
                             </div>
                         </div>

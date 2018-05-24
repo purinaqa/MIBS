@@ -272,7 +272,7 @@
                                                     <td>Phone Number<span>081211540871</span></td>
                                                 </tr>   
                                                 <tr class="s-total">
-                                                    <td>Email Address<span>purinnahdafauziyah@gmail</span></td>
+                                                    <td>Email Address<span>nahdafauziyah@gmail</span></td>
                                                 </tr>                                         
                                                 <tr class="s-total">
                                                     <td>Address <span>Jalan Mulyosari satu no. 5, Mulyorejo, Surabaya, Jawa Timur</span></td>
